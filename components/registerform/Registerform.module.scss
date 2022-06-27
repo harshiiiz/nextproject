@@ -1,0 +1,129 @@
+.formheader{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 48px;
+position: absolute;
+width: 997px;
+height: 316px;
+
+
+}
+.heading{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 11px;
+position: absolute;
+width: 997px;
+height: 64px;
+}
+.formtext1{
+    width: 997px;
+height: 35px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 110%;
+/* or 35px */
+position: absolute;
+display: flex;
+align-items: center;
+letter-spacing: -0.06em;
+
+color: #301446;
+}
+.formtext2{
+    width: 997px;
+height: 18px;
+top: 46px;
+
+font-family: 'Mulish';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 110%;
+/* identical to box height, or 18px */
+
+display: flex;
+align-items: center;
+letter-spacing: -0.01em;
+
+color: #301446;
+position: absolute;
+opacity: 0.7;
+
+}
+.instructions{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 12px;
+position: absolute;
+width: 997px;
+height: 204px;
+top: 112px;
+
+
+}
+.ul li{
+    list-style-image: url(../../public/bx_check.svg);
+    
+
+}
+.ul{
+    font-family: 'Mulish';
+font-style: normal;
+font-weight: 600;
+
+font-size: 16px;
+line-height: 110%;
+/* identical to box height, or 18px */
+align-items: center;
+letter-spacing: -0.01em;
+
+color: #301446;
+
+opacity: 0.7;
+
+    list-style-type:none;
+}
+@media screen and (max-width:376px){
+.formtext1{
+    height: 70px;
+width: 330px;
+left: 0px;
+top: 0px;
+border-radius: nullpx;
+
+}
+.formtext2{
+    height: 36px;
+width: 330px;
+left: 0px;
+top: 81px;
+border-radius: nullpx;
+
+}
+.instructions{
+    height: 261px;
+width: 330px;
+left: 0px;
+top: 165px;
+border-radius: 0px;
+
+}
+.formheader{
+    height: 483px;
+width: 341px;
+left: 0px;
+top: 0px;
+border-radius: 0px;
+
+}
+}

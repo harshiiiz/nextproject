@@ -1,0 +1,20 @@
+.frame5container{
+    position: absolute;
+width: 1440px;
+height: 508px;
+left: 0px;
+top: 3745px;
+
+}
+
+@media screen and (max-width:376px){
+    .frame5container{
+        height: 557px;
+width: 360px;
+left: 0px;
+top: 5557px;
+border-radius: 0px;
+position: absolute;
+
+    }
+}

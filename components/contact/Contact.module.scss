@@ -1,0 +1,20 @@
+.contact{
+    background-image: url(../../public/contact.svg);
+    position: absolute;
+width: 1440px;
+height: 441px;
+left: 0px;
+top: 5046px;
+}
+
+@media screen and (max-width:376px){
+    .contact{
+        height: 499px;
+width: 360px;
+left: 0px;
+top: 7020px;
+border-radius: 0px;
+background-image: url(../../public/contactmob.svg);
+    }
+    
+}

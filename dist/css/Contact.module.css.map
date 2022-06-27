@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,QAAQ,CAAA;EACJ,gBAAgB,EAAE,6BAA6B;EAC/C,QAAQ,EAAE,QAAQ;EACtB,KAAK,EAAE,MAAM;EACb,MAAM,EAAE,KAAK;EACb,IAAI,EAAE,GAAG;EACT,GAAG,EAAE,MAAM;CACV;;AAED,MAAM,CAAC,MAAM,MAAM,SAAS,EAAE,KAAK;EAC/B,AAAA,QAAQ,CAAA;IACJ,MAAM,EAAE,KAAK;IACrB,KAAK,EAAE,KAAK;IACZ,IAAI,EAAE,GAAG;IACT,GAAG,EAAE,MAAM;IACX,aAAa,EAAE,GAAG;IAClB,gBAAgB,EAAE,gCAAgC;GAC7C",
+    "sources": [
+        "../../components/contact/Contact.module.scss"
+    ],
+    "names": [],
+    "file": "Contact.module.css"
+}

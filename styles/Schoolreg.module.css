@@ -1,0 +1,162 @@
+.schcontainer{
+    position: relative;
+width: 1440px;
+height: 2475px;
+
+background: #FFFFFF;
+}
+
+
+
+.formreg{
+    display: flex;
+flex-direction: column;
+align-items: flex-end;
+padding: 0px;
+gap: 72px;
+
+position: absolute;
+width: 997px;
+height: 2203px;
+left: 222px;
+top: 148px;
+
+}
+
+.submit{
+    height: 56px;
+width: 128px;
+left: 869px;
+top: 2147px;
+border-radius: 10px;
+padding: 18px, 32px, 18px, 32px;
+position: absolute;
+}
+
+.part2school{
+    height: 327px;
+width: 996px;
+left: 1px;
+top: 388px;
+border-radius: 0px;
+position: absolute;
+}
+.part3school{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 48px;
+top: 787px;
+width: 996px;
+height: 1288px;
+position: absolute;
+}
+.part3title{
+    width: 172px;
+height: 26px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 110%;
+/* or 26px */
+top: 0px;
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.06em;
+
+color: #301446;
+position: absolute;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+.candidateq{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 13px;
+
+width: 996px;
+height: 68px;
+position: absolute;
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.howmany{
+    top: 74px;
+    width: 352px;
+height: 15px;
+
+font-family: 'Mulish';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 110%;
+/* or 15px */
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.01em;
+
+color: #301446;
+
+opacity: 0.7;
+
+/* Inside auto layout */
+position: absolute;
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+@media screen and (max-width:376px){
+    .formreg{
+        height: 4600px;
+width: 341px;
+left: 16px;
+top: 186px;
+border-radius: 0px;
+
+    }
+    .part2school{
+        height: 528px;
+width: 327px;
+left: 0px;
+top: 555px;
+border-radius: 0px;
+
+    }
+    .part3school{
+        height: 3317px;
+width: 341px;
+left: 0px;
+top: 1155px;
+border-radius: 0px;
+
+    }
+    .submit{
+        height: 56px;
+width: 128px;
+left: 0px;
+top: 4544px;
+border-radius: 10px;
+padding: 18px, 32px, 18px, 32px;
+
+    }
+}

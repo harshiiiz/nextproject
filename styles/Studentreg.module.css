@@ -1,0 +1,165 @@
+.container{
+    position: relative;
+width: 1440px;
+height: 2475px;
+
+background: #FFFFFF;
+}
+
+
+
+.form{
+    display: flex;
+flex-direction: column;
+align-items: flex-end;
+padding: 0px;
+gap: 72px;
+
+position: absolute;
+width: 997px;
+height: 2203px;
+left: 222px;
+top: 148px;
+
+}
+.submit{
+
+position: absolute;
+height: 56px;
+width: 128px;
+left: 1020px;
+top: 1302px;
+border-radius: 10px;
+padding: 18px, 32px, 18px, 32px;
+
+}
+
+.studetails{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 48px;
+top: 393px;
+width: 996px;
+height: 327px;
+position: absolute;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.stutitle{
+    width: 172px;
+height: 26px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 110%;
+/* or 26px */
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.06em;
+
+color: #301446;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.frame19754{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 32px;
+
+width: 996px;
+height: 253px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.scdetails{
+    top: 792px;
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 48px;
+
+width: 996px;
+height: 438px;
+
+position: absolute;
+/* Inside auto layout */
+
+flex: none;
+order: 2;
+flex-grow: 0;
+}
+
+@media screen and (max-width:376px){
+.form{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 72px;
+
+position: absolute;
+width: 330px;
+height: 1830px;
+left: 16px;
+top: 186px;
+
+}
+.studetails{
+    height: 904px;
+width: 330px;
+left: 0px;
+top: 498px;
+border-radius: 0px;
+
+}
+.frame19754{
+    height: 504px;
+width: 330px;
+left: 0px;
+top: 74px;
+border-radius: 0px;
+position: absolute;
+}
+.scdetails{
+    height: 578px;
+width: 330px;
+left: 0px;
+border-radius: 0px;
+top: 1400px;
+
+}
+.submit{
+    height: 56px;
+width: 128px;
+left: 10px;
+top: 2274px;
+border-radius: 10px;
+padding: 18px, 32px, 18px, 32px;
+
+}
+}

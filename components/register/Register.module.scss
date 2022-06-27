@@ -1,0 +1,75 @@
+
+.grp36517{
+    position: absolute;
+width: 222px;
+height: 156px;
+left: 46px;
+top: 64px;
+}
+.grp36516{
+    position: absolute;
+width: 224px;
+height: 244.97px;
+left: 320px;
+top: 12px;
+
+}
+
+.textreg{
+    position: absolute;
+width: 222px;
+height: 76px;
+
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 120%;
+/* or 38px */
+
+letter-spacing: -0.06em;
+
+color: #301446;
+
+}
+.buttn{
+    position: absolute;
+width: 210px;
+height: 56px;
+
+top: 114px;
+
+}
+@media screen and (max-width:376px){
+    .grp36517{
+        height: 110.26666259765625px;
+width: 136px;
+left: 24px;
+top: 46px;
+border-radius: 6.476190567016602px;
+
+    }
+    .textreg{
+        height: 58px;
+width: 130px;
+left: 24px;
+top: -2px;
+
+font-size: 24px;
+
+line-height: 29px;
+letter-spacing: -0.06em;
+text-align: left;
+
+
+    }
+    .buttn{
+        height: 36.266666412353516px;
+width: 136px;
+left: 24px;
+top: 120px;
+border-radius: 6.476190567016602px;
+
+    }
+}

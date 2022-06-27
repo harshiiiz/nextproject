@@ -1,0 +1,70 @@
+.frame6container{
+    position: absolute;
+width: 1443px;
+height: 793px;
+left: -1px;
+top: 4253px;
+
+background: #FFFFFF;
+}
+.faqtitle{
+    position: absolute;
+width: 628px;
+height: 53px;
+left: 408px;
+top: 112px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: 110%;
+/* identical to box height, or 53px */
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.06em;
+
+color: #301446;
+}
+.frame19657{
+    height: 433px;
+width: 996px;
+left: 222px;
+top: 248px;
+border-radius: 0px;
+position:absolute;
+}
+
+@media screen and (max-width:376px){
+    .frame6container{
+        height: 800px;
+width: 360px;
+left: 0px;
+top: 6073px;
+border-radius: 0px;
+
+    }
+    .faqtitle{
+        height: 70px;
+width: 283px;
+left: 31px;
+top: 64px;
+border-radius: nullpx;
+font-size: 32px;
+line-height: 110%;
+
+
+    }
+
+    .frame19657{
+        height: 629px;
+width: 323px;
+left: 21px;
+top: 164px;
+border-radius: 0px;
+
+    }
+
+}

@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,gBAAgB,CAAA;EACZ,QAAQ,EAAE,QAAQ;EACtB,KAAK,EAAE,MAAM;EACb,MAAM,EAAE,KAAK;EACb,IAAI,EAAE,GAAG;EACT,GAAG,EAAE,MAAM;CAEV;;AAED,MAAM,CAAC,MAAM,MAAM,SAAS,EAAE,KAAK;EAC/B,AAAA,gBAAgB,CAAA;IACZ,MAAM,EAAE,KAAK;IACrB,KAAK,EAAE,KAAK;IACZ,IAAI,EAAE,GAAG;IACT,GAAG,EAAE,MAAM;IACX,aAAa,EAAE,GAAG;IAClB,QAAQ,EAAE,QAAQ;GAEb",
+    "sources": [
+        "../../components/frame5/Frame5.module.scss"
+    ],
+    "names": [],
+    "file": "Frame5.module.css"
+}

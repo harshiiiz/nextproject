@@ -1,0 +1,198 @@
+.congocontainer {
+  position: absolute;
+  width: 1440px;
+  height: 1079px;
+  background: #FFFFFF;
+}
+
+.congoicon {
+  background-image: url(../../public/congoicon.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  width: 186px;
+  height: 186px;
+  left: 627px;
+  top: 144px;
+}
+
+.reg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0px;
+  gap: 16px;
+  position: absolute;
+  width: 608px;
+  height: 100px;
+  left: 416px;
+  top: 376px;
+}
+
+.regtext1 {
+  width: 600px;
+  height: 62px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 56px;
+  line-height: 110%;
+  /* identical to box height, or 62px */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  letter-spacing: -0.06em;
+  color: #301446;
+}
+
+.regtext2 {
+  height: 22px;
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 110%;
+  /* identical to box height, or 22px */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  letter-spacing: -0.01em;
+  color: #301446;
+  opacity: 0.7;
+  /* Inside auto layout */
+  -webkit-box-flex: 0;
+      -ms-flex: none;
+          flex: none;
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+  -ms-flex-positive: 0;
+      flex-grow: 0;
+}
+
+.followlink {
+  position: absolute;
+  height: 66px;
+  left: 222px;
+  top: 555px;
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 110%;
+  /* or 22px */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  letter-spacing: -0.01em;
+  color: #301446;
+  opacity: 0.7;
+}
+
+.links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding: 0px;
+  gap: 32px;
+  position: absolute;
+  width: 996px;
+  height: 320px;
+  left: 222px;
+  top: 658px;
+}
+
+@media screen and (max-width: 376px) {
+  .congocontainer {
+    height: 1230px;
+    width: 360px;
+  }
+  .congoicon {
+    height: 95.13978576660156px;
+    width: 95.13978576660156px;
+    left: 132.4306640625px;
+    top: 188.43017578125px;
+    border-radius: 12.276100158691406px;
+  }
+  .reg {
+    height: 122px;
+    width: 328px;
+    left: 16px;
+    top: 320px;
+    border-radius: 0px;
+  }
+  .regtext1 {
+    height: 70px;
+    width: 327px;
+    left: 0.5px;
+    top: 0px;
+    border-radius: nullpx;
+    font-size: 32px;
+    line-height: 110%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+  }
+  .regtext2 {
+    height: 36px;
+    width: 323px;
+    left: 2.5px;
+    top: 86px;
+    border-radius: nullpx;
+    font-size: 16px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+  }
+  .followlink {
+    width: 328px;
+    height: 90px;
+    left: 16px;
+    top: 482px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 110%;
+    /* or 18px */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+  }
+  .links {
+    width: 328px;
+    height: 1000px;
+    left: 0px;
+  }
+}
+/*# sourceMappingURL=Successreg.module.css.map */

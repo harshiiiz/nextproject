@@ -1,0 +1,121 @@
+.jtext {
+  position: absolute;
+  height: 22px;
+  left: 25px;
+  top: 17px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 110%;
+  /* identical to box height, or 22px */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  letter-spacing: -0.06em;
+  color: rgba(48, 20, 70, 0.7);
+}
+
+.drivelink {
+  position: absolute;
+  height: 22px;
+  left: 342px;
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 110%;
+  /* identical to box height, or 22px */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  letter-spacing: -0.01em;
+  color: #2640C9;
+}
+
+.link {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 996px;
+  height: 56px;
+  background: #F9FAFF;
+  border: 1px solid #E0E7FF;
+  border-radius: 4px;
+  /* Inside auto layout */
+  -webkit-box-flex: 0;
+      -ms-flex: none;
+          flex: none;
+  -webkit-box-ordinal-group: 1;
+      -ms-flex-order: 0;
+          order: 0;
+  -ms-flex-positive: 0;
+      flex-grow: 0;
+}
+
+.junior {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  position: absolute;
+  width: 281px;
+  height: 56px;
+  left: 0px;
+  background: #FFFFFF;
+  border: 1px solid #E0E7FF;
+  border-radius: 4px 0px 0px 4px;
+}
+
+@media screen and (max-width: 376px) {
+  .link {
+    height: 92px;
+    width: 328px;
+    left: 16px;
+    top: 619px;
+    border-radius: 0px;
+  }
+  .junior {
+    height: 32px;
+    width: 328px;
+    left: 0px;
+  }
+  .drivelink {
+    height: 140px;
+    width: 309px;
+    left: 10px;
+    font-size: 16px;
+    line-height: 120%;
+    border-radius: nullpx;
+    text-align: center;
+  }
+  .dlink {
+    height: 170px;
+    width: 328px;
+    left: 0px;
+    border-radius: 0px;
+    position: absolute;
+  }
+  .jtext {
+    height: 15px;
+    left: 143px;
+    top: 8px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 110%;
+    /* or 15px */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+  }
+}
+/*# sourceMappingURL=Drivelink.module.css.map */

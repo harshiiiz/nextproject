@@ -396,9 +396,7 @@ line-height: 110%;
 
 }
 .ico{
-  background-image: url(../public/logotransparent.svg);
-  background-size: contain;
-  background-repeat: no-repeat;
+  
   position: absolute;
 left: 15.42%;
 right: 75.31%;

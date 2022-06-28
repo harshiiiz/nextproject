@@ -5,6 +5,8 @@ import Button from '../components/button'
 import Schooldetails from '../components/schooldetails'
 import Studentinfo from '../components/studentinfo'
 import Link from 'next/link'
+import Image from 'next/image'
+import logo from '../public/logotransparent.svg'
 
 
 const Schoolreg = () => {
@@ -24,7 +26,10 @@ const Schoolreg = () => {
       <Link href='/'>
       <a  className='cross'></a>
       </Link>
-    <div  className='ico'></div>
+      <div className="ico">
+    <Image src={logo}  width={133} height={22}  ></Image>
+    </div>
+  
     <div className={styles.formreg}>
         <Registerform formtitle='uLesson Challenge Registration (Schools)' in1='Identify students to enter for each of the four categories.' in2='Make sure each student  has an existing free or paid uLesson account.' in3='Students who do not have existing uLesson accounts can create for free. (available on Android, iOS, and web).' in4='Fill in School details in fields provided.' in5='Please ensure that the mobile number provided for each student is the same as the contact they registered on the uLesson app.' in6='This competition is open to schools and students in Nigeria only'/>
         <div className={styles.part2school}>

@@ -49,7 +49,7 @@ const Schoolreg = () => {
           <div className="studentcontainer">{
           [...Array(counter)].map((e, i) => 
           
-          <Studentinfo infonum={i+1} />)
+          <Studentinfo infonum={i+1} key={e} />)
           }
           </div>
         </div>

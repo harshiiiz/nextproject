@@ -7,6 +7,7 @@ import Studentinfo from '../components/studentinfo'
 import Link from 'next/link'
 import Image from 'next/image'
 import logo from '../public/logotransparent.svg'
+import cros from '../public/cross.svg'
 
 
 const Schoolreg = () => {
@@ -24,10 +25,12 @@ const Schoolreg = () => {
   return (
     <div className={styles.schcontainer}>
       <Link href='/'>
-      <a  className='cross'></a>
+      <a  className='cross'>
+      <Image src={cros} width={32} height={32} alt=''></Image>
+      </a>
       </Link>
       <div className="ico">
-    <Image src={logo}  width={133} height={22}  ></Image>
+    <Image src={logo}  width={133} height={22}  alt='' ></Image>
     </div>
   
     <div className={styles.formreg}>

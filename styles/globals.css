@@ -412,9 +412,7 @@ left: 1161px;
 top: 46px;
 border-radius: 0px;
 position: absolute;
-background-image: url(../public/cross.svg);
-background-size: contain;
-background-repeat: no-repeat;
+
 }
 .frame19751{
   display: flex;

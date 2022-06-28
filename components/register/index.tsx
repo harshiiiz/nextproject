@@ -2,6 +2,8 @@
 import React,{FC} from 'react'
 import styles from '../register/Register.module.scss'
 import Button from '../button';
+import Image from 'next/image'
+
 interface proptype{
     textreg:string;
     boxnum:number;
@@ -21,7 +23,8 @@ const index :FC<proptype>= (props) => {
         </div>
         </div>
         
-            <div className={`img${props.boxnum}`}></div>
+            <div className={`img${props.boxnum}`}>
+            </div>
         
         </div>
     

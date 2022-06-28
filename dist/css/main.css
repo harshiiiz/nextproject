@@ -9,6 +9,7 @@
 }
 
 .buttontext {
+  text-decoration: none;
   font-family: 'Mulish';
   font-style: normal;
   font-weight: 700;

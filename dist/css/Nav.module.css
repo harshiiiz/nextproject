@@ -132,7 +132,7 @@
   width: 40px;
   padding: 0.5rem;
   border-radius: 50%;
-  background-color: #283b8b;
+  background-color: #301446;
   cursor: pointer;
   -webkit-transition: background-color 0.2s ease-in-out;
   transition: background-color 0.2s ease-in-out;
@@ -145,7 +145,7 @@
 }
 
 .hamburger:hover {
-  background-color: #2642af;
+  background-color: #301446;
 }
 
 .overlapgroup3 {
@@ -168,6 +168,12 @@
 }
 
 @media screen and (max-width: 376px) {
+  .navigationmenu {
+    display: none;
+  }
+  .navigationmenuexpanded ul {
+    overflow: hidden;
+  }
   .hamburger {
     display: block;
   }
@@ -183,7 +189,7 @@
         -ms-flex-direction: column;
             flex-direction: column;
     width: 100%;
-    height: calc(100vh - 77px);
+    height: 160px;
     background-color: white;
     border-top: 1px solid black;
   }
@@ -208,7 +214,7 @@
   }
   .schoolschallenge {
     position: absolute;
-    top: 0px;
+    top: 5px;
     right: 150px;
   }
   .learningbundle {

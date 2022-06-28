@@ -7,7 +7,7 @@ import Schooldetails from '../components/schooldetails'
 const studentreg = () => {
   return (
     <div className={styles.container}>
-      <div className='cross'></div>
+      <a href='/' className='cross'></a>
     <div  className='ico'></div>
     <div className={styles.form}>
         <Registerform formtitle='uLesson Challenge Registration (Student)' in1='Student MUST have an accessible uLesson account. Don’t have an account? Click here to sign up on uLesson.' in2='Fill in School details in fields provided.' in3='Complete your personal details' in4='Please ensure that the mobile number you provide is the same as the contact on your uLesson account. ' in5='Review and submit your details.' in6='This competition is open to schools and students in Nigeria only'/>

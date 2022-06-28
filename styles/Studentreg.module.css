@@ -1,5 +1,5 @@
 .container{
-    position: relative;
+    position: absolute;
 width: 1440px;
 height: 2475px;
 
@@ -114,7 +114,13 @@ order: 2;
 flex-grow: 0;
 }
 
+
+
 @media screen and (max-width:376px){
+    .container{
+        width: 340px;
+        height: 2500px;
+    }
 .form{
     display: flex;
 flex-direction: column;

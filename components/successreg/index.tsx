@@ -4,14 +4,16 @@ import Drivelink from '../drivelink'
 
 interface proptype{
     regtext:string;
-    followlink:string
+    followlink:string;
+    num:number;
 
 }
+//school-1 student-2
 
 const index :FC<proptype>= (props) => {
   return (
     <div className={styles.congocontainer}>
-        <div className="cross"></div>
+        <a href='/' className="cross"></a>
         <div className="ico"></div>
         <div className={styles.congoicon}></div>
         <div className={styles.reg}>
@@ -21,11 +23,18 @@ const index :FC<proptype>= (props) => {
         </div>
         
         <div className={styles.followlink}>{props.followlink}</div>
-        <div className={styles.links}>
-        <Drivelink txt1='Junior' txt2='https://docs.google.com/document/d/19Wx7dHRYBDDKXDDHjb'/>
-        <Drivelink txt1='Senior (Science)' txt2='https://docs.google.com/document/d/19Wx7dHRYBDDKXDDHjb'/>
-        <Drivelink txt1='Senior (Business)' txt2='https://docs.google.com/document/d/19Wx7dHRYBDDKXDDHjb'/>
-        <Drivelink txt1='Senior (Humanities)' txt2='https://docs.google.com/document/d/19Wx7dHRYBDDKXDDHjb'/>
+        
+        <div className={`link${props.num}`}>
+        <Drivelink txt1='Junior' txt2="https://docs.google.com/document/d/19Wx7dHRYBDDKXDDHjb" linknum={1}/>
+         <div className='otherlink1'>
+        <Drivelink txt1='Senior (Science)' txt2='https://docs.google.com/document/d/19Wx7dHRYBDDKXDDHjb' linknum={2}/>
+        </div>
+        <div className='otherlink2'>
+        <Drivelink txt1='Senior (Business)' txt2='https://docs.google.com/document/d/19Wx7dHRYBDDKXDDHjb'linknum={3}/>
+        </div>
+        <div className='otherlink3'>
+        <Drivelink txt1='Senior (Humanities)' txt2='https://docs.google.com/document/d/19Wx7dHRYBDDKXDDHjb'linknum={4}/>
+        </div>
         </div>
     </div>
   )

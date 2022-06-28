@@ -1,22 +1,4 @@
-.studentinfocontainer{
-    display: flex;
-flex-direction: column;
-align-items: flex-start;
-padding: 0px;
-gap: 24px;
-top: 750px;
-width: 996px;
-height: 194px;
-position: absolute;
 
-
-/* Inside auto layout */
-
-flex: none;
-order: 0;
-align-self: stretch;
-flex-grow: 0;
-}
 .student1{
     width: 996px;
 height: 20px;

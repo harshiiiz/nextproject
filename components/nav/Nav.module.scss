@@ -123,7 +123,7 @@ align-self: flex-end;
     width: 40px;
     padding: 0.5rem;
     border-radius: 50%;
-    background-color: #283b8b;
+    background-color:#301446;
     cursor: pointer;
     transition: background-color 0.2s ease-in-out;
   // positions the icon to the right and center aligns it vertically
@@ -134,7 +134,7 @@ align-self: flex-end;
     display: none;
   }
   .hamburger:hover {
-    background-color: #2642af;
+    background-color: #301446;
   }
   .overlapgroup3{
     align-items : flex-start;
@@ -151,6 +151,12 @@ align-self: flex-end;
     }
 
   @media screen and (max-width: 376px) {
+    .navigationmenu{
+      display: none;
+    }
+    .navigationmenuexpanded ul{
+      overflow: hidden;
+    }
     .hamburger {
       display: block;
     }
@@ -166,7 +172,7 @@ align-self: flex-end;
         flex-direction: column;
        // makes menu span full height and width
         width: 100%;
-        height: calc(100vh - 77px);
+        height: 160px;
         background-color: white;
         border-top: 1px solid black;
       }
@@ -193,8 +199,9 @@ align-self: flex-end;
       }
       .schoolschallenge{
         position: absolute;
-        top: 0px;
+        top: 5px;
         right: 150px;
+      
       }
       .learningbundle{
         top:80px;

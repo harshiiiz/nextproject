@@ -28,7 +28,7 @@ const Home: NextPage = () => {
         <Frame3/>
         <Frame4/>
         <Frame5/>
-       <Faq/>
+        <Faq/>
         <Contact/>
         <Footer/>
          

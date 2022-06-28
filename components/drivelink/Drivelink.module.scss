@@ -22,7 +22,8 @@
     position: absolute;
   
   height: 22px;
-  left: 342px;
+  left: 10px;
+  top: 15px;
 
   
   font-family: 'Mulish';
@@ -70,12 +71,13 @@ border-radius: 4px 0px 0px 4px;
 
 }
 
+
 @media screen and (max-width:376px){
   .link{
     height: 92px;
 width: 328px;
 left: 16px;
-top: 619px;
+top: 558px;
 border-radius: 0px;
 
   }
@@ -86,24 +88,18 @@ left: 0px;
 
   }
   .drivelink{
-    height: 140px;
+    height: 56px;
     width: 309px;
     left: 10px;
+    top: 0px;
     font-size: 16px;
 line-height: 120%;
     border-radius: nullpx;
     text-align: center;
+    overflow: auto;
     
   }
-  .dlink{
-    height: 170px;
-width: 328px;
-left: 0px;
-
-border-radius: 0px;
-position: absolute;
-
-  }
+  
   .jtext{
 
 height: 15px;

@@ -4,6 +4,7 @@ import styles from '../../dist/css/Drivelink.module.css'
 interface proptype{
     txt1:string;
     txt2:string;
+    linknum:number;
 }
 
 const index :FC<proptype>= (props) => {
@@ -13,8 +14,8 @@ const index :FC<proptype>= (props) => {
                 <div className={styles.junior}>
                     <div className={styles.jtext}>{props.txt1}</div>
                     </div>
-                    <div className={styles.dlink}>
-                    <a className={styles.drivelink}>{props.txt2}</a>
+                    <div className={`dlink${props.linknum}`}>
+                    <div className={styles.drivelink}>{props.txt2}</div>
                     </div>
                
             </div>

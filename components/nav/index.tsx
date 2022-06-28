@@ -43,7 +43,7 @@ const index = () => {
           </li>
           <li className= {styles.overlapgroup3}>
           
-          <Button name={name} />
+          <Button name={name} btnlink={'/studentreg'}/>
           
           </li>
         </ul>

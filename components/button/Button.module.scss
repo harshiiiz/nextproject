@@ -28,3 +28,22 @@ text-align: center;
 
 color: #FFFFFF;
 }
+@media screen and (max-width:376px){
+    .button{
+        height: 36.266666412353516px;
+        width: 136px;
+        
+        border-radius: 6.476190567016602px;
+        
+
+    }
+    .buttontext{
+        height: 14px;
+width: 122px;
+left: 20px;
+top: 10px;
+font-size: 12.9524px;
+line-height: 110%;
+
+    }
+}

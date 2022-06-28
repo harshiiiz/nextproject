@@ -1,4 +1,4 @@
-import Link from 'next/link';
+
 import React,{FC} from 'react'
 import styles from '../../dist/css/Register.module.css'
 import Button from '../button';

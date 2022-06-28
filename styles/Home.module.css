@@ -1,11 +1,6 @@
 
 
 
-.mobcontainer{
-  width: 426px;
-  height: fit-content;
-}
-
 .tabcontainer {
   width: 1440px;
   min-height: 100vh;
@@ -61,3 +56,10 @@
   font-size: 1.5rem;
 }
 
+@media screen and (max-width:376px){
+  .tabcontainer{
+    width: 360px;
+    height: 8000px;
+    top: 0px;
+  }
+}

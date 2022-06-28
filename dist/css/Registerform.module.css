@@ -116,6 +116,10 @@
 }
 
 @media screen and (max-width: 376px) {
+  .heading {
+    width: 330px;
+    height: 70px;
+  }
   .formtext1 {
     height: 70px;
     width: 330px;

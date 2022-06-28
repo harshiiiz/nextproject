@@ -3,7 +3,7 @@ import React,{useState} from 'react'
 import styles from '../../dist/css/Nav.module.css'
 import Button from '../button'
 
-const index = () => {
+const Index = () => {
     const name='TRY IT NOW';
     const [isNavExpanded, setIsNavExpanded] = useState(false)
   return (
@@ -61,4 +61,4 @@ const index = () => {
   )
 }
 
-export default index
+export default Index

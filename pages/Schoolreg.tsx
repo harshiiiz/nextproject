@@ -7,7 +7,7 @@ import Studentinfo from '../components/studentinfo'
 import Link from 'next/link'
 
 
-const schoolreg = () => {
+const Schoolreg = () => {
 
   const [counter, setCounter] = useState(1);
   
@@ -62,4 +62,4 @@ const schoolreg = () => {
   )
 }
 
-export default schoolreg
+export default Schoolreg

@@ -9,7 +9,7 @@ const studentreg = () => {
   return (
     <div className={styles.container}>
       <Link href={'/'}>
-      <a href='/' className='cross'></a>
+      <a  className='cross'></a>
       </Link>
     <div  className='ico'></div>
     <div className={styles.form}>

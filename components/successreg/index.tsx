@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React,{FC} from 'react'
 import styles from '../../dist/css/Successreg.module.css'
 import Drivelink from '../drivelink'
@@ -13,7 +14,9 @@ interface proptype{
 const index :FC<proptype>= (props) => {
   return (
     <div className={styles.congocontainer}>
+      <Link href={'/'}>
         <a href='/' className="cross"></a>
+        </Link>
         <div className="ico"></div>
         <div className={styles.congoicon}></div>
         <div className={styles.reg}>

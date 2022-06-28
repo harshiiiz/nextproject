@@ -1,5 +1,5 @@
 import React,{FC} from 'react'
-import styles from '../../dist/css/Registerform.module.css'
+import styles from '../registerform/Registerform.module.scss'
 interface proptype{
     formtitle:string;
     in1:string;

@@ -1,6 +1,6 @@
 import React from "react";
 import Faq from "react-faq-component";
-import styles from '../../dist/css/Faq.module.css'
+import styles from '../faq/Faq.module.scss'
 
 const data = {
     //title: "FAQ (How it works)",

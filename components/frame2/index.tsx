@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from '../../dist/css/Frame2.module.css'
+import styles from '../frame2/Frame2.module.scss'
 
 const index = () => {
   return (

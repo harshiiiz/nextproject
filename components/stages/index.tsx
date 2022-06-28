@@ -1,5 +1,5 @@
 import React,{FC} from 'react'
-import styles from '../../dist/css/Stages.module.css'
+import styles from '../stages/Stages.module.scss'
 interface proptype
 {
     date:string;

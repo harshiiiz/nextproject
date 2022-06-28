@@ -1,6 +1,6 @@
 import React from 'react'
 import Button from '../button'
-import styles from '../../dist/css/Topbar.module.css'
+import styles from '../topbar/Topbar.module.scss'
 import Nav from '../nav/Index'
 
 const Topbar = () => {

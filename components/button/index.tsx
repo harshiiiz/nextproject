@@ -1,5 +1,5 @@
 import React,{FC} from 'react'
-import styles from '../../dist/css/Button.module.css'
+import styles from '../button/Button.module.scss'
 import Link from 'next/link'
 
 interface proptype{

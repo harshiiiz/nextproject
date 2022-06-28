@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import React,{useState} from 'react'
-import styles from '../../dist/css/Nav.module.css'
+import styles from '../nav/Nav.module.scss'
 import Button from '../button'
 
 const Index = () => {

@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from '../../dist/css/Frame5.module.css'
+import styles from '../frame5/Frame5.module.scss'
 import Register from '../register'
 
 const index = () => {

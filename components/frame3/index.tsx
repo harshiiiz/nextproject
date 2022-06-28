@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from '../../dist/css/Frame3.module.css'
+import styles from '../frame3/Frame3.module.scss'
 const index = () => {
   return (
     <div className={styles.frame3container}>

@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from '../../dist/css/Schooldetails.module.css'
+import styles from '../schooldetails/Schooldetails.module.scss'
 
 const index = () => {
   return (

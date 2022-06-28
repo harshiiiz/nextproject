@@ -1,5 +1,5 @@
 import React,{FC} from 'react'
-import styles from '../../dist/css/Studentinfo.module.css'
+import styles from '../studentinfo/Studentinfo.module.scss'
 
 interface proptype{
   infonum: number;

@@ -1,5 +1,5 @@
 import React,{FC} from 'react'
-import styles from '../../dist/css/Drivelink.module.css'
+import styles from '../drivelink/Drivelink.module.scss'
 
 interface proptype{
     txt1:string;

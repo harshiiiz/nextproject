@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from '../../dist/css/Frame4.module.css'
+import styles from '../frame4/Frame4.module.scss'
 import Stages from '../stages'
 
 const index = () => {

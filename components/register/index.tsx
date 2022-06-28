@@ -1,6 +1,6 @@
 
 import React,{FC} from 'react'
-import styles from '../../dist/css/Register.module.css'
+import styles from '../register/Register.module.scss'
 import Button from '../button';
 interface proptype{
     textreg:string;

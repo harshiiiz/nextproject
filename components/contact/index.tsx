@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from '../../dist/css/Contact.module.css'
+import styles from '../contact/Contact.module.scss'
 
 const index = () => {
   return (

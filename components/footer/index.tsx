@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from '../../dist/css/Footer.module.css'
+import styles from '../footer/Footer.module.scss'
 
 const index = () => {
   return (

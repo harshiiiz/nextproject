@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import React,{FC} from 'react'
-import styles from '../../dist/css/Successreg.module.css'
+import styles from '../successreg/Successreg.module.scss'
 import Drivelink from '../drivelink'
 
 interface proptype{

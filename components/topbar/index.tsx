@@ -1,14 +1,14 @@
 import React from 'react'
 import Button from '../button'
 import styles from '../../dist/css/Topbar.module.css'
-import Navbar from '../nav'
+import Nav from '../nav/Index'
 
 const Topbar = () => {
   return (
     <>
     <div className={styles.topcontainer}>
 
-    <Navbar/>
+    <Nav/>
     
     <div className={styles.join}>
     Join the uLesson Schools Challenge
@@ -20,7 +20,7 @@ const Topbar = () => {
 
     </div>
     <div className={styles.btn}>
-    <Button name={'Register Now'} btnlink={'/studentreg'}/>
+    <Button name={'Register Now'} btnlink={'/Studentreg'}/>
     </div>
     </div>
     

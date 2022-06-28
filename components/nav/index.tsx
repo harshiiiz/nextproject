@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React,{useState} from 'react'
 import styles from '../../dist/css/Nav.module.css'
 import Button from '../button'
@@ -33,17 +34,23 @@ const index = () => {
             
         <ul >
           <li className={styles.schoolschallenge}>
-            <a  className={styles.navtext1} href="/">Schools Challenge</a>
+            <Link href={'/'}>
+            <a  className={styles.navtext1} >Schools Challenge</a>
+            </Link>
           </li>
           <li className = {styles.learningbundle }>
-            <a className={styles.navtext1} href="/">Learning Bundle</a>
+            <Link href={'/'}>
+            <a className={styles.navtext1} >Learning Bundle</a>
+            </Link>
           </li>
           <li className= {styles.codingschool }>
-            <a className={styles.navtext1} href="/">Coding School</a>
+            <Link href={'/'}>
+            <a className={styles.navtext1}>Coding School</a>
+            </Link>
           </li>
           <li className= {styles.overlapgroup3}>
           
-          <Button name={name} btnlink={'/studentreg'}/>
+          <Button name={name} btnlink={'/Studentreg'}/>
           
           </li>
         </ul>

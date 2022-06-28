@@ -5,8 +5,8 @@ import Register from '../register'
 const index = () => {
   return (
     <div className={styles.frame5container}>
-        <Register boxnum={1} textreg={'Register as a Student'} btnlink={'/studentreg'}/>
-        <Register boxnum={2} textreg={'Register as a School'} btnlink={'/schoolreg'}/>
+        <Register boxnum={1} textreg={'Register as a Student'} btnlink={'/Studentreg'}/>
+        <Register boxnum={2} textreg={'Register as a School'} btnlink={'/Schoolreg'}/>
     </div>
   )
 }

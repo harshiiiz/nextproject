@@ -664,7 +664,7 @@ order: 0;
 align-self: stretch;
 flex-grow: 0;
 }
-@media screen and (max-width:376px){
+@media screen and (max-width:426px){
   .studentcontainer{
     height: 3317px;
 width: 341px;
@@ -776,7 +776,7 @@ border-radius: nullpx;
 }
   .box1{
     height: 202px;
-width: 328px;
+width:360px;
 left: 0px;
 top: 64px;
 border-radius: 8px;
@@ -784,7 +784,7 @@ position: absolute;
   }
   .box2{
     height: 202px;
-width: 328px;
+width: 360px;
 left: 0px;
 top: 290px;
 border-radius: 8px;

@@ -154,15 +154,16 @@ top: 641px;
 border-radius: 8px;
 position: absolute;
 }
-@media screen and (max-width:376px){
+@media screen and (max-width:426px){
 .frame3container{
     height: 2702px;
-width: 360px;
+width: 100%;
 left: 0px;
 top: 1643px;
 border-radius: 0px;
 background-image: url(../../public/Frame19774.svg) ;
 background-size: contain;
+background-repeat:no-repeat;
 
 }
 .competition{

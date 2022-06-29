@@ -83,14 +83,16 @@ transform: rotate(90deg);
 
 }
 
-@media screen and (max-width:376px){
+@media screen and (max-width:426px){
     .frame4container{
         height: 1239px;
-width: 360px;
+width: 100%;
 left: 0px;
 top: 4318px;
 border-radius: 0px;
 background: url(../../public/Frame19775.svg);
+background-size: contain;
+background-repeat: no-repeat;
 
     }
     .dottedline1,.dottedline2,.stage3,.stage1,.stage2{

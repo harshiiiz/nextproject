@@ -7,14 +7,16 @@ left: 0px;
 top: 5046px;
 }
 
-@media screen and (max-width:376px){
+@media screen and (max-width:426px){
     .contact{
         height: 499px;
-width: 360px;
+width: 100%;
 left: 0px;
 top: 7020px;
 border-radius: 0px;
 background-image: url(../../public/contactmob.svg);
+background-size: contain;
+background-repeat: no-repeat;
     }
     
 }

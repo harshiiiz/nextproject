@@ -64,10 +64,10 @@ position:absolute;
  background-image: url(../../public/Frame19773.svg);
  background-size: contain;
 }
-@media screen and (max-width:376px){
+@media screen and (max-width:426px){
     .framecontainer{
         height: 971px;
-width: 360px;
+width: 100%;
 left: 0px;
 top: 672px;
 border-radius: 0px;
@@ -103,11 +103,13 @@ background-size: contain;
 }
 .frame19723{
     height: 42px;
-width: 322px;
+width: 100%;
 left: 19px;
 top: 877px;
 border-radius: 0px;
 background-image: url(../../public/Frame19723mob.svg);
+background-size: contain;
+background-repeat: no-repeat;
 
 
 }

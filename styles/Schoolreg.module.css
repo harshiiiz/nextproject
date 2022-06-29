@@ -27,10 +27,10 @@ top: 148px;
     height: 56px;
 width: 128px;
 left: 1000px;
-top: 2247px;
+top: 90%;
 border-radius: 10px;
 padding: 18px, 32px, 18px, 32px;
-position: absolute;
+position: relative;
 }
 
 .part2school{
@@ -131,10 +131,10 @@ order: 0;
 flex-grow: 0;
 }
 
-@media screen and (max-width:376px){
+@media screen and (max-width:426px){
     .schcontainer{
         height: 4989px;
-width: 360px;
+width: 100%;
 border-radius: 0px;
 
 

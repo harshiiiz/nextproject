@@ -6,7 +6,7 @@ body {
   width: 100%;
   height: 5900px;
   
-    /*overflow-x: hidden;*/
+    overflow-x: hidden;
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
@@ -35,39 +35,16 @@ color: rgba(234, 112, 82, 1);
   color: rgba(104, 188, 152, 1);
 
 }
-.icon1{
+.icon{
   height: 22px;
   width: 20px;
   left: 2px;
   top: 1px;
   border-radius: 0px;
   position: absolute;
-  background-image: url(../public/calendar.svg);
-  background-size: contain;
-  background-repeat: no-repeat;
+  
 }
-.icon2{
-  height: 22px;
-  width: 20px;
-  left: 2px;
-  top: 1px;
-  border-radius: 0px;
-  position: absolute;
-  background-image: url(../public/calendar2.svg);
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-.icon3{
-  height: 22px;
-  width: 20px;
-  left: 2px;
-  top: 1px;
-  border-radius: 0px;
-  position: absolute;
-  background-image: url(../public/calendar3.svg);
-  background-size: contain;
-  background-repeat: no-repeat;
-}
+
 .box1{
   position: absolute;
 width: 588px;
@@ -90,13 +67,13 @@ border-radius: 8px;
 }
 
 .img1{
-  background-image: url(../public/student.svg);
+  
   position: absolute;
 width: 216.3px;
 height: 236.76px;
 left: 337px;
 top: 24px;
-background-size: contain;
+
 }
  .img2{
   position: absolute;
@@ -104,8 +81,7 @@ background-size: contain;
   height: 244.97px;
   left: 320px;
   top: 12px;
-  background-image: url(../public/school.svg);
-  background-size: contain;
+  
 }
 /* .faq-style-wrapper {
   margin-top: 2em;
@@ -226,7 +202,7 @@ color: #170F49 ;
   
 }
 .faq-style-wrapper{
-  padding :15px 35px;
+  padding :15px 105px;
 
 }
 
@@ -464,9 +440,9 @@ line-height: 110%;
 .ico{
   
   position: absolute;
-left: 15.42%;
-right: 75.31%;
-top: 46px;
+left: 18%;
+
+top: 1%;
 bottom: 97.25%;
 width: 133.57px;
 height: 22px;
@@ -474,8 +450,8 @@ height: 22px;
 .cross{
   height: 32px;
 width: 32px;
-left: 1161px;
-top: 46px;
+right: 2%;
+top: 1%;
 border-radius: 0px;
 position: absolute;
 
@@ -508,17 +484,17 @@ gap: 32px;
 position: absolute;
 width: 996px;
 height: 320px;
-left: 222px;
-top: 658px;
+left: 25%;
+top: 45%;
 }
 .link2{
   box-sizing: border-box;
 
 position: absolute;
-width: 996px;
+width: 900px;
 height: 56px;
-left: 222px;
-top: 639px;
+left: 25%;
+top: 45%;
 
 background: #F9FAFF;
 border: 1px solid #E0E7FF;
@@ -626,25 +602,24 @@ padding: 0px;
 gap: 32px;
 
 width: 996px;
-height: 1098px;
-
-top: 190px;
+  min-height: 398px;
+flex-grow: 2;
+top: 15%;
+position: relative;
 /* Inside auto layout */
+height:fit-content;
 
-flex: none;
-order: 2;
-flex-grow: 0;
 }
-.studentinfocontainer1{
+.studentinfocontainer{
   display: flex;
 flex-direction: column;
 align-items: flex-start;
 padding: 0px;
 gap: 24px;
-top:190px;
+
 width: 996px;
 height: 194px;
-position: absolute;
+position: relative;
 
 
 /* Inside auto layout */
@@ -654,134 +629,36 @@ order: 0;
 align-self: stretch;
 flex-grow: 0;
 }
-.studentinfocontainer2{
-  display: flex;
-flex-direction: column;
-align-items: flex-start;
-padding: 0px;
-gap: 24px;
 
-width: 996px;
-height: 194px;
-position: absolute;
-
-top: 416px;
-/* Inside auto layout */
-
-flex: none;
-order: 0;
-align-self: stretch;
-flex-grow: 0;
-}
-.studentinfocontainer3{
-  display: flex;
-flex-direction: column;
-align-items: flex-start;
-padding: 0px;
-gap: 24px;
-
-width: 996px;
-height: 194px;
-position: absolute;
-
-top: 642px;
-/* Inside auto layout */
-
-flex: none;
-order: 0;
-align-self: stretch;
-flex-grow: 0;
-}
-.studentinfocontainer4{
-  display: flex;
-flex-direction: column;
-align-items: flex-start;
-padding: 0px;
-gap: 24px;
-
-width: 996px;
-height: 194px;
-position: absolute;
-
-top: 868px;
-/* Inside auto layout */
-
-flex: none;
-order: 0;
-align-self: stretch;
-flex-grow: 0;
-}
-.studentinfocontainer5{
-  display: flex;
-flex-direction: column;
-align-items: flex-start;
-padding: 0px;
-gap: 24px;
-
-width: 996px;
-height: 194px;
-position: absolute;
-
-top: 1094px;
-/* Inside auto layout */
-
-flex: none;
-order: 0;
-align-self: stretch;
-flex-grow: 0;
-}
 @media screen and (max-width:426px){
   html,body{
     width: 100%;
   }
+  .faq-style-wrapper{
+    padding :15px 25px;
+  
+  }
+  
   .studentcontainer{
     height: 3317px;
 width: 100%;
 left: 0px;
-top: 1155px;
+top: 7%;
 border-radius: 0px;
 
   }
-  .studentinfocontainer1{
+  .studentinfocontainer{
     height: 785px;
 width: 328px;
 left: 0px;
-top: 200px;
+
 border-radius: 0px;
 
   }
-  .studentinfocontainer2{
-    height: 785px;
-width: 328px;
-left: 0px;
-top: 985px;
-border-radius: 0px;
-
+  .form__input3{
+    width: 328px;
   }
-  .studentinfocontainer3{
-    height: 785px;
-width: 328px;
-left: 0px;
-top: 1770px;
-border-radius: 0px;
-
-  }
-  .studentinfocontainer4{
-    height: 785px;
-width: 328px;
-left: 0px;
-top: 2555px;
-border-radius: 0px;
-
-  }
-  .studentinfocontainer5{
-    height: 785px;
-width: 328px;
-left: 0px;
-top: 3340px;
-border-radius: 0px;
-
-  }
+  
   .dlink1 ,.dlink2, .dlink3 , .dlink4{
     
       height: 56px;

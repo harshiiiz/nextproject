@@ -29,7 +29,7 @@ const Topbar = () => {
     </div>
     </div>
     <div className={styles.person}>
-     <Image src={Group36540} width={551} height={603}></Image>
+     <Image src={Group36540} width={551} height={520}></Image>
     </div>
     </div>
     </div>

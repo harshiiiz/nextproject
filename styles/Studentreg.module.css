@@ -2,10 +2,20 @@
     position: absolute;
 width: 1440px;
 height: 2475px;
-
+left:calc(50% - 750px);
+align-items: center;
+justify-content: center;
+right: calc(50% - 600px);
 background: #FFFFFF;
 }
+.regcontainer{
+    width: 100%;
+    height: 2475px;
+    position: absolute;
+    align-items: center ;
+    justify-content: center;
 
+}
 
 
 .form{
@@ -18,7 +28,7 @@ gap: 72px;
 position: absolute;
 width: 997px;
 height: 2203px;
-left: 222px;
+left: 20%;
 top: 148px;
 
 }
@@ -117,9 +127,12 @@ flex-grow: 0;
 
 
 @media screen and (max-width:426px){
+    
     .container{
         width: 100%;
         height: 2500px;
+        left: 0px;
+        right: 0px;
     }
 .form{
     display: flex;
@@ -163,7 +176,7 @@ top: 1400px;
     height: 56px;
 width: 128px;
 left: 10px;
-top: 2274px;
+top: 2194px;
 border-radius: 10px;
 padding: 18px, 32px, 18px, 32px;
 

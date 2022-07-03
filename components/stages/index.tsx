@@ -1,5 +1,6 @@
 import React,{FC} from 'react'
 import styles from '../stages/Stages.module.scss'
+import Image from 'next/image'
 interface proptype
 {
     date:string;
@@ -8,6 +9,7 @@ interface proptype
     icon:string;
     stage:string;
     stageno:number;
+    imgsrc:string;
     
 }
 
@@ -27,7 +29,9 @@ const index:FC<proptype> = (props) => {
     <div className={styles.frame36524}>
         <div className={styles.date}>
             
-            <div className={`icon${props.stageno}`}></div>
+            <div className='icon'>
+                <Image src={props.imgsrc} width={20} height={22}></Image>
+            </div>
             
 
             <div className={styles.day}>{props.date}</div>

@@ -10,6 +10,7 @@ import cros from '../public/cross.svg'
 
 const studentreg = () => {
   return (
+    <div className={styles.regcontainer}>
     <div className={styles.container}>
       <Link href={'/'}>
       <a  className='cross'>
@@ -87,6 +88,7 @@ const studentreg = () => {
     </div>
     <div className={styles.submit}>
     <Button name='Submit' btnlink='congratstudent'/>
+    </div>
     </div>
     
     </div>

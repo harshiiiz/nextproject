@@ -17,6 +17,7 @@ interface proptype{
 
 const index :FC<proptype>= (props) => {
   return (
+    <div className={styles.congcontainer}>
     <div className={styles.congocontainer}>
       <Link href={'/'}>
         <a  className="cross">
@@ -47,6 +48,7 @@ const index :FC<proptype>= (props) => {
         <Drivelink txt1='Senior (Humanities)' txt2='https://docs.google.com/document/d/19Wx7dHRYBDDKXDDHjb'linknum={4}/>
         </div>
         </div>
+    </div>
     </div>
   )
 

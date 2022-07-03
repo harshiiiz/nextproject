@@ -6,7 +6,7 @@ interface proptype{
 }
 const index :FC<proptype>= (props) => {
   return (
-    <div className={`studentinfocontainer${props.infonum}`}>
+    <div className="studentinfocontainer">
         <div className={styles.student1}>Student {props.infonum}</div>
         <div className={styles.sicol}>
         <div className='gender'>

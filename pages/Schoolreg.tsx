@@ -17,13 +17,14 @@ const Schoolreg = () => {
   const incrementCounter = () => setCounter(counter + 1);
   let decrementCounter = () => setCounter(counter - 1);
 
-  if(counter<=0) {
+  if(counter<=1) {
     decrementCounter = () => setCounter(1);
   }
   
 
   return (
-    <div className={styles.schcontainer}>
+     <div className={styles.scont}>
+       <div className={styles.schcontainer}>
       <Link href='/'>
       <a  className='cross'>
       <Image src={cros} width={32} height={32} alt=''></Image>
@@ -44,13 +45,13 @@ const Schoolreg = () => {
             <div className={styles.howmany}>How many candidates will you enter for the challenge?</div>
             <div className='countercontainer'>
             <div id='incrementcount'>
-            <input type="image" id="plus" src="plus.png" onClick={incrementCounter} />
+            <input type="image" id="plus" src="plus.svg" onClick={incrementCounter} />
              </div>
              <div id='count'>
-            <input  type='number' defaultValue={counter} className='countinput'  />
+            <input  type='text' defaultValue={counter} className='countinput'  />
            </div>
            <div id='decrementcount'>
-             <input type="image" id="minus" src="minus.png" onClick={decrementCounter} />
+             <input type="image" id="minus" src="minus.svg" onClick={decrementCounter} />
            </div>
            </div>
           </div>
@@ -59,12 +60,14 @@ const Schoolreg = () => {
           
           <Studentinfo infonum={i+1} key={e} />)
           }
+          <div className={styles.submitt}>
+    <Button name='Submit' btnlink='/congratschool'/>
+    </div>
           </div>
         </div>
     
     </div>
-    <div className={styles.submit}>
-    <Button name='Submit' btnlink='/congratschool'/>
+    
     </div>
     </div>
   )

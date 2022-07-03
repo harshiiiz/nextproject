@@ -38,7 +38,7 @@ const config = {
     expandIcon: "+",
     collapseIcon: "-",
 };
-const index = () => {
+const Index = () => {
     const [ setRowsOption] = useState(null);
   return (
     
@@ -57,4 +57,4 @@ const index = () => {
   )
 }
 
-export default index
+export default Index

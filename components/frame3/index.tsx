@@ -1,5 +1,8 @@
 import React from 'react'
 import styles from '../frame3/Frame3.module.scss'
+import senior from '../../public/senior.svg'
+import Image from 'next/image'
+import eligibility from '../../public/Frame19652.svg'
 const index = () => {
   return (
     <div className={styles.frame3container}>
@@ -22,8 +25,12 @@ const index = () => {
             </div>
         </div>
 
-        <div className={styles.senior}></div>
-        <div className={styles.eligibility}></div>
+        <div className={styles.senior}>
+          <Image src={senior}></Image>
+        </div>
+        <div className={styles.eligibility}>
+          <Image src={eligibility}></Image>
+        </div>
     </div>
   )
 }

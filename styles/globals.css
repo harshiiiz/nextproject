@@ -4,7 +4,9 @@
 html,
 body {
   width: 100%;
-    overflow-x: hidden;
+  height: 6000px;
+  
+    /*overflow-x: hidden;*/
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
@@ -665,9 +667,12 @@ align-self: stretch;
 flex-grow: 0;
 }
 @media screen and (max-width:426px){
+  html,body{
+    width: 100%;
+  }
   .studentcontainer{
     height: 3317px;
-width: 341px;
+width: 100%;
 left: 0px;
 top: 1155px;
 border-radius: 0px;

@@ -32,7 +32,7 @@ const Index = () => {
       <div
         className={isNavExpanded ? styles.navigationmenuexpanded : styles.navigationmenu}>
             
-        <ul >
+        <ul  className={styles.ulnav}>
           <li className={styles.schoolschallenge}>
             <Link href={'/'}>
             <a  className={styles.navtext1} >Schools Challenge</a>

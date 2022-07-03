@@ -1,21 +1,34 @@
 .contact{
     background-image: url(../../public/contact.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
     position: absolute;
 width: 1440px;
 height: 441px;
-
-top: 5046px;
+right: calc(50% - 720px);
+//top: 5046px;
 }
-
+.contactcont{
+    
+width: 100%;
+height: 441px;
+position: absolute;
+top: 5046px;
+background-color: #301446;
+}
 @media screen and (max-width:426px){
     .contact{
         height: 499px;
 width: 100%;
-top: 7020px;
+right: 0px;
 border-radius: 0px;
 background-image: url(../../public/contactmob.svg);
 background-size: contain;
 background-repeat: no-repeat;
+    }
+    .contactcont{
+        height: 499px;
+        top: 7020px;
     }
     
 }

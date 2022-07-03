@@ -7,6 +7,7 @@ import Image from 'next/image'
 const Topbar = () => {
   return (
     <>
+    <div className={styles.maincontainer}>
     <div className={styles.topcontainer}>
 
     <Nav/>
@@ -31,7 +32,7 @@ const Topbar = () => {
      <Image src={Group36540} width={551} height={603}></Image>
     </div>
     </div>
-    
+    </div>
     </>
   )
 }

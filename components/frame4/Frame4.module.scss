@@ -1,6 +1,14 @@
 .frame4container{
     position: absolute;
-width: 1441px;
+width: 1440px;
+height: 1223px;
+
+background: #F2F2FB;
+right: calc(50% - 720px);
+}
+.fcont{
+    position: absolute;
+width: 100%;
 height: 1223px;
 
 top: 2522px;
@@ -85,14 +93,18 @@ transform: rotate(90deg);
 
 @media screen and (max-width:426px){
     .frame4container{
-        height: 1239px;
+        height: 1223px;
 width: 100%;
-top: 4318px;
+right: 0px;
+//top: 4318px;
 border-radius: 0px;
 background: url(../../public/Frame19775.svg);
 background-size: contain;
 background-repeat: no-repeat;
 
+    }
+    .fcont{
+        top:4340px;
     }
     .dottedline1,.dottedline2,.stage3,.stage1,.stage2{
         display: none;
@@ -101,7 +113,7 @@ background-repeat: no-repeat;
         height: 35px;
 width: 259px;
 left: 51px;
-top: 64px;
+top: 44px;
 border-radius: nullpx;
 font-family: Montserrat;
 font-size: 32px;

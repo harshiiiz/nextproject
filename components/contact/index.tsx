@@ -3,9 +3,11 @@ import styles from '../contact/Contact.module.scss'
 
 const index = () => {
   return (
-    
-    <div className={styles.contact}></div>
-    
+    <div className={styles.contactcont}>
+    <div className={styles.contact}>
+      
+    </div>
+    </div>
   )
 }
 

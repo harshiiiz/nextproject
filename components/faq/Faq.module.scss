@@ -1,18 +1,16 @@
 .frame6container{
     position: absolute;
-width: 1443px;
-height: 793px;
+width: 1440px;
+height: auto;
 
 top: 4253px;
 
 background: #FFFFFF;
+right: calc(50% - 720px);
 }
+
 .faqtitle{
-    position: absolute;
-width: 628px;
-height: 53px;
-left: 408px;
-top: 112px;
+    
 
 font-family: 'Montserrat';
 font-style: normal;
@@ -21,7 +19,7 @@ font-size: 48px;
 line-height: 110%;
 /* identical to box height, or 53px */
 
-display: flex;
+
 align-items: center;
 text-align: center;
 letter-spacing: -0.06em;
@@ -41,7 +39,7 @@ position:absolute;
     .frame6container{
         height: 800px;
 width: 100%;
-
+right: 0px;
 top: 6073px;
 border-radius: 0px;
 

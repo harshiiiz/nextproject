@@ -4,6 +4,7 @@ import Stages from '../stages'
 
 const index = () => {
   return (
+    <div className={styles.fcont}>
     <div className={styles.frame4container}>
         <div className={styles.frame4title}>Challenge Stages</div>
         <div className={styles.dottedline1}></div>
@@ -19,6 +20,7 @@ const index = () => {
         <div className={styles.stage3}>
         <Stages stageno={3} date={'Saturday, July 30th, 2022.'} text1={' PHYSICAL quiz show to be held in Lagos or Abuja. Arrangements will be made by the uLesson team to cover transport and welfare costs for successful candidates who do not reside in the host city.'} text2={'Top 10 candidates in each of the four categories (Junior, Senior - Business, Senior -  Science, Senior - Humanities) will be invited to proceed to the final stage. '} icon={'../../public/'} stage={'Final Stage'}/>
         </div>
+    </div>
     </div>
   )
 }

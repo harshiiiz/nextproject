@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useState} from "react";
 import Faq from "react-faq-component";
 import styles from '../faq/Faq.module.scss'
 
@@ -21,15 +21,15 @@ const data = {
         
     ],
 };
-const styless = {
-    // bgColor: 'white',
-    //titleTextColor: "blue",
-    rowTitleColor: "#170F49",
-     rowContentColor: '#301446',
+// const styless = {
+//     // bgColor: 'white',
+//     //titleTextColor: "blue",
+//     rowTitleColor: "#170F49",
+//      rowContentColor: '#301446',
      
-     rowContentTextSize: '18px',
-    // arrowColor: "red",
-};
+//      rowContentTextSize: '18px',
+//     // arrowColor: "red",
+// };
 
 const config = {
     // animate: true,
@@ -39,13 +39,16 @@ const config = {
     collapseIcon: "-",
 };
 const index = () => {
+    const [ setRowsOption] = useState(null);
   return (
+    
     <div className={styles.frame6container}>
-        <div className={styles.faqtitle}>Frequently Asked Questions</div>
-        <div className={styles.frame19657}>
+        <h2 className={styles.faqtitle}>Frequently Asked Questions</h2>
+        <div className='faq-style-wrapper'>
             <Faq
                 data={data}
-                styles={styless}
+                getRowOptions={setRowsOption}
+                //styles={styless}
                 config={config}
             />
             </div>

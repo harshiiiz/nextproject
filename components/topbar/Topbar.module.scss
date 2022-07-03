@@ -1,4 +1,16 @@
+.maincontainer{
+width: 100%;
+background-color: #301446;
+height:700px;
+    position:absolute;
+    background-color: #301446;
+    
+    top: 0px;
+    
+}
+
 .topcontainer{
+    right: calc(50% - 720px);
     width: 1440px;
     height:700px;
     position:absolute;
@@ -96,6 +108,7 @@ left: 5%;
     .topcontainer{
         height: 672px;
 width: 100%;
+right: 0px;
 align-items: center;
 justify-content: center;
 

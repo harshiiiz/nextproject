@@ -1,9 +1,21 @@
 .framecontainer{
     height: 725px;
 width: 1440px;
-top: 700px;
+right: calc(50% - 720px);
 border-radius: 0px;
 position: absolute;
+background-color: rgba(242, 242, 251, 1);
+;
+}
+.frame2container{
+    height: 725px;
+width: 100%;
+top: 700px;
+
+position: absolute;
+background-color: rgba(242, 242, 251, 1);
+;
+
 }
 
 .frame19723{
@@ -64,11 +76,16 @@ position:absolute;
  background-size: contain;
 }
 @media screen and (max-width:426px){
+.frame2container{
+    height: 971px;
+
+}
+    
     .framecontainer{
         height: 971px;
 width: 100%;
-
-top: 672px;
+right: 0px;
+//top: 672px;
 border-radius: 0px;
 position: absolute;
     }
@@ -103,7 +120,7 @@ background-size: contain;
 .frame19723{
     height: 42px;
 width: 100%;
-left: 19px;
+left: 0px;
 top: 877px;
 border-radius: 0px;
 background-image: url(../../public/Frame19723mob.svg);

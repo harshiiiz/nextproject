@@ -575,10 +575,10 @@ top: 0px;
 
 .countinput{
   position: absolute;
-width: 19px;
-height: 15px;
-left: 10px;
-top: 12px;
+width: 35px;
+height: 35px;
+left: 5%;
+top: 1%;
 
 font-family: 'Mulish';
 font-style: normal;

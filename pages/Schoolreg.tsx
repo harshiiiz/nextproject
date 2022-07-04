@@ -48,7 +48,10 @@ const Schoolreg = () => {
             <input type="image" id="plus" src="plus.svg" onClick={incrementCounter} />
              </div>
              <div id='count'>
-            <input   defaultValue={counter} className='countinput'  />
+              <div className="countinput">
+            {/* <input   defaultValue={counter} className='countinput'  /> */}
+            {counter}
+            </div>
            </div>
            <div id='decrementcount'>
              <input type="image" id="minus" src="minus.svg" onClick={decrementCounter} />

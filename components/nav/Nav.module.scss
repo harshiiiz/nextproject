@@ -162,9 +162,9 @@ top: 10px;
     .navigationmenu{
       display: none;
     }
-    .navigationmenuexpanded ul{
-      overflow: hidden;
-    }
+    // .navigationmenuexpanded ul{
+      
+    // }
     .hamburger {
       display: block;
       top: 25.51% ;
@@ -183,8 +183,8 @@ top: 10px;
        // makes menu span full height and width
         width: 100%;
         height: 160px;
-        background-color: white;
-        border-top: 1px solid black;
+        background-color: #301446;;
+        
       }
       .navigationmenu li , .navigationmenuexpanded li{
         // centers link text and strips off margin

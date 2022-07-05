@@ -123,8 +123,8 @@ color:rgba(48, 20, 70, 0.7);
 }
 .titlename{
     height: 26px;
-width: 100%;
-left: 40%;
+width: fit-content;
+left: 35%;
 top: 23px;
 border-radius: nullpx;
 position: absolute;
@@ -333,9 +333,9 @@ width: 100%;
 }
 .competition{
     position: absolute;
-width: 194px;
+width: fit-content;
 height: 70px;
-left: 22%;
+left: 2%;
 margin-top: 5.4rem;
 font-size: 32px;
 line-height: 35.2px;
@@ -343,6 +343,9 @@ text-align: center;
 align-items: center;
 top: 0%;
 
+}
+.eligtitle{
+    font-size: 39px;
 }
 .frame19724junior{
     width: 90%;

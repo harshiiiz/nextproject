@@ -5,7 +5,7 @@ const index = () => {
   return (
     <div className={styles.frame2container}>
     <div className={styles.framecontainer}>
-        <div className={styles.benefits}>Benefits & Awards</div>
+        <h2 className={styles.benefits}>Benefits & Awards</h2>
         <div className={styles.prizes}> </div>
         <div className={styles.frame19723}>
             

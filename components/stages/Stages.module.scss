@@ -116,7 +116,7 @@ top: 35px;
 }
 .date{
     display: flex;
-flex-direction: row;
+flex-direction:row;
 align-items: center;
 padding: 0px;
 gap: 8px;
@@ -167,4 +167,61 @@ display: flex;
 align-items: center;
 letter-spacing: -0.06em;
 
+}
+
+@media screen and (max-width:426px){
+
+    .stagecontainer{
+        width: 95%;
+        height: 420px;
+    }
+    .frame19715{
+        width: 100%;
+        left: 1px;
+        height: 180px;
+        top: 35%;
+    }
+    .frame19713 {
+        width: 100%;
+        height: 100px;
+    }
+    .frame19714{
+        height: 40px;
+        width: 90%;
+        top: 80%;
+    }
+    .text1{
+        top: 0px;
+        width: 90%;
+        height: 100px;
+        left: 20px;
+    }
+    .text2{
+        width: 100%;
+        
+    }
+    .frame36524{
+        width: 90%;
+        left: 5%;
+        
+    height: 102px;
+    }
+    
+    .date{
+        
+padding: 0px;
+gap: 8px;
+
+position: absolute;
+width: 90%;
+height: 56px;
+left: 0px;
+top: 40%;
+
+    }
+    .day{
+width: fit-content;
+height: 56px;
+top: 0px;
+    }
 }

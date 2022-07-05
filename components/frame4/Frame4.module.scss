@@ -94,25 +94,25 @@ transform: rotate(90deg);
 @media screen and (max-width:426px){
     .frame4container{
         height: 1223px;
-width: 100%;
-right: 0px;
+width: 90%;
+
+left: 2%;
 //top: 4318px;
 border-radius: 0px;
-background: url(../../public/Frame19775.svg);
-background-size: contain;
-background-repeat: no-repeat;
+// background: url(../../public/Frame19775.svg);
+// background-size: contain;
+// background-repeat: no-repeat;
 
     }
     .fcont{
-        top:4340px;
+        top:4673px;
+        height: 1600px;
     }
-    .dottedline1,.dottedline2,.stage3,.stage1,.stage2{
-        display: none;
-    }
+    
     .frame4title{
         height: 35px;
 width: 259px;
-left: 51px;
+left: 10%;
 top: 44px;
 border-radius: nullpx;
 font-family: Montserrat;
@@ -122,6 +122,35 @@ line-height: 35px;
 letter-spacing: -0.06em;
 text-align: center;
 position: absolute;
-z-index: 100;
+
+    }
+    .stage1,.stage2,.stage3{
+        width: 100%;
+        left: 15px;
+        height: 480px;
+    }
+    .stage1{
+        top: 12%;
+    }
+    .stage2{
+        top: 50%;
+    }
+    .stage3{
+        top: 90%;
+    }
+    .dottedline1{
+        left: -239px;
+        top: 850px;
+    }
+    .dottedline2{
+        top: 850px;
+        left: 10%;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width:358px) {
+    .dottedline2{
+        
+        left: -15%;
     }
 }

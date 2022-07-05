@@ -3,6 +3,7 @@ import React,{useState} from 'react'
 import styles from '../nav/Nav.module.scss'
 import Button from '../button'
 
+
 const Index = () => {
     const name='TRY IT NOW';
     const [isNavExpanded, setIsNavExpanded] = useState(false)
@@ -15,9 +16,10 @@ const Index = () => {
       onClick={() => {
         setIsNavExpanded(!isNavExpanded);
       }}>
+        
         {/* icon from heroicons.com */}
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
+        {/* <svg
+          //xmlns="http://www.w3.org/2000/svg"
           className="h-5 w-5"
           viewBox="0 0 20 20"
           fill="white"
@@ -27,7 +29,7 @@ const Index = () => {
             d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM9 15a1 1 0 011-1h6a1 1 0 110 2h-6a1 1 0 01-1-1z"
             clipRule="evenodd"
           />
-        </svg>
+        </svg> */}
       </button>
       <div
         className={isNavExpanded ? styles.navigationmenuexpanded : styles.navigationmenu}>

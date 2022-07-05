@@ -6,7 +6,7 @@ const index = () => {
   return (
     <div className={styles.fcont}>
     <div className={styles.frame4container}>
-        <div className={styles.frame4title}>Challenge Stages</div>
+        <h2 className={styles.frame4title}>Challenge Stages</h2>
         <div className={styles.dottedline1}></div>
         <div className={styles.dottedline2}></div>
         <div className={styles.stage1}>

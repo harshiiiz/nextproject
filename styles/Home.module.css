@@ -5,7 +5,7 @@
   width: 100%;
   height: 5900px;
   min-height: 100vh;
-  padding: 4rem 0;
+  
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -60,7 +60,7 @@
 @media screen and (max-width:426px){
   .tabcontainer{
     width: 100%;
-    height: 10000px;
+    height: 8500px;
     top: 0px;
   }
 }

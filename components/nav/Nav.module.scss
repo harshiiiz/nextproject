@@ -195,6 +195,8 @@ top: 10px;
       }
       .navigationmenuexpanded ul{
         display: flex;
+        width: 100%;
+        
     -webkit-box-align: center;
     align-items: center;
     flex-direction: column;

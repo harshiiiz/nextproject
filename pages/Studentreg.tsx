@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from '../styles/Studentreg.module.css'
 import Registerform from '../components/registerform'
-import Button from '../components/button'
+
 import Schooldetails from '../components/schooldetails'
 import Link from 'next/link'
 import Image from 'next/image'
@@ -87,8 +87,9 @@ const studentreg = () => {
         
     </div>
     <div className={styles.submit}>
-    <Button name='Submit' btnlink='congratstudent'/>
-    </div>
+                <Link href={'/congratschool'} className={styles.btntext}>Submit</Link>
+                {/* <Button name="Submit" btnlink="/congratschool" /> */}
+              </div>
     </div>
     
     </div>

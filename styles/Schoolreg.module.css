@@ -35,12 +35,36 @@ top: 148px;
     height: 56px;
 width: 128px;
 left: 80%;
+padding: 18px 32px;
+gap: 10px;
 
+width: 128px;
+height: 56px;
+
+background: #EA7052;
+border-radius: 10px;
 border-radius: 10px;
 padding: 18px, 32px, 18px, 32px;
 position: relative;
 }
+.submitt a{
+    width: 64px;
+height: 20px;
+text-decoration: none;
+font-family: 'Mulish';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 110%;
+/* identical to box height, or 20px */
 
+display: flex;
+align-items: center;
+letter-spacing: 0.4px;
+
+color: #FFFFFF;
+
+}
 .part2school{
     height: 327px;
 width: 996px;

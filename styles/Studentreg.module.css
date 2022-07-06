@@ -173,11 +173,38 @@ top: 1400px;
 
 }
 .submit{
-    height: 40px;
-width: 130px;
+    width: 128px;
+height: 56px;
 left: 10px;
 top: 2194px;
 border-radius: 10px;
+padding: 18px 32px;
+gap: 10px;
+background: #EA7052;
+border-radius: 10px;
+border-radius: 10px;
+padding: 18px, 32px, 18px, 32px;
+
+
+
+}
+
+.submit a{
+    width: 64px;
+height: 20px;
+text-decoration: none;
+font-family: 'Mulish';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 110%;
+/* identical to box height, or 20px */
+
+display: flex;
+align-items: center;
+letter-spacing: 0.4px;
+
+color: #FFFFFF;
 
 }
 }

@@ -37,7 +37,7 @@ const studentreg = () => {
         </div>
         <div className="gender">
               <label className="form_label" htmlFor="country">Gender</label>
-                 <select className='form__input' id="country" name="country">
+                 <select className='form__inputt' id="country" name="country">
                     <option value="australia">Male</option>
                     <option value="canada">Female</option>
                   </select>
@@ -47,11 +47,11 @@ const studentreg = () => {
             <div className="frame19751">
             <div className="gender">
         <label className='form_label' htmlFor="birthday">Date Of Birth</label>
-         <input className='form__input' type="date" id="birthday" name="birthday"/>
+         <input className='form__input' type="text" id="birthday" name="birthday" placeholder="01 /12 / 1986"/>
          </div>
          <div className="gender">
               <label className="form_label" htmlFor="country">Grade Group</label>
-                 <select className='form__input' id="country" name="country">
+                 <select className='form__inputt' id="country" name="country">
                     <option value="australia">Male</option>
                     <option value="canada">Female</option>
                   </select>
@@ -73,7 +73,7 @@ const studentreg = () => {
         </div>
         <div className="gender">
               <label className="form_label" htmlFor="country">Preffered Exam Location</label>
-                 <select className='form__input' id="country" name="country">
+                 <select className='form__inputt' id="country" name="country">
                     <option value="australia">Lagos</option>
                     <option value="canada">Nigeria</option>
                   </select>
@@ -87,8 +87,8 @@ const studentreg = () => {
         
     </div>
     <div className={styles.submit}>
-                <Link href={'/congratschool'} className={styles.btntext}>Submit</Link>
-                {/* <Button name="Submit" btnlink="/congratschool" /> */}
+                <Link href={'/congratstudent'} className={styles.btntext}>Submit</Link>
+                
               </div>
     </div>
     

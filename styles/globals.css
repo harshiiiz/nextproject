@@ -35,7 +35,7 @@ body {
   height: 22px;
   width: 20px;
   left: 2px;
-  top: 1px;
+  
   border-radius: 0px;
   position: absolute;
 }
@@ -79,6 +79,7 @@ body {
  .faq-style-wrapper {
   padding: 15px 35px;
 }
+
 /*
 .faq-row-wrapper, .faq-body{
   height: 333px;
@@ -204,6 +205,36 @@ right: 34.6%; */
   order: 0;
   align-self: stretch;
   flex-grow: 0;
+}
+.form__inputt{
+ 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: transparent;
+    background-image: url("data:image/svg+xml;utf8,<svg fill='black' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
+    background-repeat: no-repeat;
+    background-position-x: 95%;
+    background-position-y: 7px;
+    /* border: 1px solid #dfdfdf;
+    border-radius: 2px;
+    margin-right: 2rem;
+    padding: 1rem;
+    padding-right: 2rem; */
+    box-sizing: border-box;
+
+  width: 316px;
+  height: 40px;
+
+  
+  border: 1px solid #e0e7ff;
+  border-radius: 4px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 110%;
+  color: rgba(48, 20, 70, 0.7);
+  
 }
 .form__input {
   box-sizing: border-box;
@@ -391,6 +422,7 @@ right: 34.6%; */
   order: 0;
   flex-grow: 1;
 }
+
 .form__input3 {
   box-sizing: border-box;
 
@@ -410,6 +442,27 @@ right: 34.6%; */
   font-weight: 600;
   font-size: 14px;
   line-height: 110%;
+}
+.form__inputt3{
+  box-sizing: border-box;
+    width: 231px;
+    height: 40px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: transparent;
+    background-image: url("data:image/svg+xml;utf8,<svg fill='black' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
+    background-repeat: no-repeat;
+    background-position-x: 95%;
+    background-position-y: 7px;
+    border: 1px solid #e0e7ff;
+  border-radius: 4px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 110%;
+  color: rgba(48, 20, 70, 0.7);
+    
 }
 .ico {
   position: absolute;
@@ -519,9 +572,10 @@ right: 34.6%; */
   left: 0px;
   top: 0px;
 
-  background: #ffffff;
-  border: 1px solid #ffffff;
-  border-radius: 4px;
+  background-color: #ffffff;
+  background-size: contain;
+  border: 1px solid #e0e7ff;
+ 
 }
 #incrementcount {
   box-sizing: border-box;
@@ -533,8 +587,8 @@ right: 34.6%; */
   top: 0px;
 
   background: #ffffff;
-  border: 1px solid #ffffff;
-  border-radius: 4px;
+  border: 1px solid #e0e7ff;
+  
 }
 #count {
   position: absolute;
@@ -599,14 +653,59 @@ right: 34.6%; */
   flex-grow: 0;
 }
 
+.plus{
+  background-image: url(../public/plus.svg);
+
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: flex;
+  width: 15.82px !important;
+  height: 14px;
+  
+  align-items: flex-end;
+}
+.minus{
+  background-image: url(../public/minus.svg);
+
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: flex;
+  width: 15.82px !important;
+  height: 14px;
+  
+  align-items: flex-end;
+}
+.black{
+  color: #170F49;
+}
+.blue{
+  color: rgba(123, 127, 218, 1);
+
+}
 @media screen and (max-width: 426px) {
+  .gender,
+.gender2,
+.gender3,
+.gender4,
+.gender5,
+.gender6,
+.gender7,
+.gender8 {
+  width: 100%;
+}
+  .form__inputt3{
+    width: 100%;
+  }
+  .form__inputt{
+    width: 100%;
+  }
   html,
   body {
     width: 100%;
   }
   .seniorbox1 {
     width:  100%;
-    height: 420px;
+    height: 356px;
     border: 2px solid rgba(48, 20, 70, 0.05);
     border-radius: 8px;
 
@@ -615,21 +714,22 @@ right: 34.6%; */
     position: absolute;
   }.seniorbox2 {
     width: 100%;
-    height: 420px;
+    height: 356px;
     border: 2px solid rgba(48, 20, 70, 0.05);
     border-radius: 8px;
     
-    top: 36%;
+    top: 380px;
     
     position: absolute;
 }
+
 .seniorbox3 {
   width: 100%;
-  height: 420px;
+  height: 356px;
   border: 2px solid rgba(48, 20, 70, 0.05);
   border-radius: 8px;
   
-  top: 72%;
+  top: 760px;
   
   position: absolute;
 }
@@ -646,13 +746,13 @@ right: 34.6%; */
   }
   .studentinfocontainer {
     height: 785px;
-    width: 328px;
+    width: 100%;
     left: 0px;
-
+    
     border-radius: 0px;
   }
   .form__input3 {
-    width: 328px;
+    width: 100%;
   }
 
   .dlink1,
@@ -660,8 +760,11 @@ right: 34.6%; */
   .dlink3,
   .dlink4 {
     height: 56px;
-    width: 328px;
+    width: 100%;
     left: 0px;
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
 
     border-radius: 0px;
     position: absolute;
@@ -693,36 +796,30 @@ right: 34.6%; */
     top: 558px;
   }
   .link1 {
-    width: 328px;
+    width: 90%;
     height: 368px;
-    left: 15px;
-  }
-  .faq-row-wrapper,
-  .faq-body {
+    left:auto;
     
+    top: 50%;
+  }
+  .otherlink1,.otherlink2,.otherlink3{
+    height: 92px;
     width: 100%;
-    
-
-    border-radius: 0px;
+    left: 16px;
   }
-  .row-content-text {
-    
-    left: 0px;
-    top: 90px;
-    border-radius: nullpx;
-  }
+  
   .box1 {
     height: 202px;
-    width: 100%;
-    left: 0px;
+    width: 94%;
+    left: auto;
     top: 64px;
     border-radius: 8px;
     position: absolute;
   }
   .box2 {
     height: 202px;
-    width: 100%;
-    left: 0px;
+    width: 94%;
+    left: auto;
     top: 290px;
     border-radius: 8px;
     position: absolute;
@@ -730,7 +827,7 @@ right: 34.6%; */
   .img1 {
     height: 146.67970275878906px;
     width: 134px;
-    left: 57%;
+    left: 55%;
     top: 15%;
   }
   .img2 {
@@ -742,14 +839,14 @@ right: 34.6%; */
   .ico {
     height: 22.000242233276367px;
     width: 133.5715789794922px;
-    left: 16px;
+    left: 10%;
     top: 78px;
     border-radius: 0px;
   }
   .cross {
     height: 32px;
     width: 32px;
-    left: 312px;
+    
     top: 73px;
     border-radius: 0px;
   }
@@ -758,14 +855,14 @@ right: 34.6%; */
     flex-direction: column;
     align-items: flex-start;
     height: 222px;
-    width: 330px;
+    width: 100%;
     left: 0px;
     top: 0px;
     border-radius: 0px;
   }
   .username {
     height: 63px;
-    width: 328px;
+    width: 100%;
     left: 0px;
     top: 0px;
     border-radius: 0px;
@@ -777,11 +874,13 @@ right: 34.6%; */
     top: 0px;
     border-radius: nullpx;
   }
-
+ .schcountry{
+  width: 100%;
+ }
   .form__input1,
   .input {
     height: 40px;
-    width: 328px;
+    width: 100%;
     left: 0px;
     top: 23px;
     border-radius: 4px;
@@ -789,25 +888,34 @@ right: 34.6%; */
   .column2,
   .column3 {
     height: 222px;
-    width: 328px;
+    width: 100%;
     left: 0px;
     top: 176px;
     border-radius: 0px;
     display: flex;
     flex-direction: column;
   }
+  .location{
+    width: 100%;
+  }
+  .examlocation{
+    width: 100%;
+  }
   .form_label {
     height: 15px;
-
+    width: 100%;
     left: 0px;
     top: 0px;
     border-radius: nullpx;
   }
   .form__input {
     height: 40px;
-    width: 328px;
+    width: 100%;
     left: 0px;
     top: 23px;
     border-radius: 4px;
+  }
+  .email, .phn{
+    width: 100%;
   }
 }

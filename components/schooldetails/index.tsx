@@ -22,7 +22,7 @@ const index = () => {
               </div>
               <div className="location">
               <label className="form_label" htmlFor="country">School Location</label>
-                 <select className='form__input' id="country" name="country">
+                 <select className='form__inputt' id="country" name="country">
                     <option value="australia">Lagos</option>
                     <option value="canada">Canada</option>
                     <option value="usa">USA</option>
@@ -30,7 +30,7 @@ const index = () => {
     </div>
     <div className="examlocation">
               <label className="form_label" htmlFor="country">Preferred Exam location</label>
-                 <select className='form__input' id="country" name="country">
+                 <select className='form__inputt' id="country" name="country">
                     <option value="australia">Lagos</option>
                     <option value="canada">Canada</option>
                     <option value="usa">USA</option>

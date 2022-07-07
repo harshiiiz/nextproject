@@ -3,11 +3,11 @@
     width: 100%;
     display: flex;
     align-items: center;
-    position: relative;
+    position: absolute;
    // padding: 0.5rem 0rem;
     margin-top: 42px;
     padding: 0 119px;
-    //top:42px;
+    top:0px;
     
     
     
@@ -127,8 +127,8 @@ top: 10px;
   .hamburger {
     // removes default border on button element
     border: 0;
-    height: 25px;
-    width: 15px;
+    height: 15px;
+    width: 25px;
     
     
     background-color:#301446;
@@ -164,6 +164,9 @@ top: 10px;
   @media screen and (max-width: 426px) {
     .navigationmenu{
       display: none;
+    }
+    .navigation{
+      margin-top: 37px;
     }
     // .navigationmenuexpanded ul{
       

@@ -2,7 +2,7 @@ import React from "react";
 import styles from "../frame3/Frame3.module.scss";
 import senior from "../../public/senior.svg";
 import Image from "next/image";
-import eligibility from "../../public/Frame19652.svg";
+
 import Junior from "../../components/junior";
 const index = () => {
   return (
@@ -11,15 +11,16 @@ const index = () => {
         <div className={styles.competition}>Competition Categories</div>
         <div className={styles.frame19724junior}>
           <div className={styles.subjects1}>
-            <div className={styles.frame19769}>
-              <div className={styles.maths}>Mathematics</div>
-              <div className={styles.lang}>English Language</div>
-            </div>
+            
+              <p className={styles.maths}>Mathematics</p>
+              <p className={styles.maths}>English Language</p>
+              <p className={styles.maths}>Basic Science</p>
+            
           </div>
 
           <div className={styles.title}>
             <div className={styles.titlename}>Junior</div>
-            <div className={styles.basicscience}>Basic Science</div>
+           
           </div>
         </div>
        <div className={styles.juniorboxes}>
@@ -28,7 +29,7 @@ const index = () => {
           title={"Science"}
           sub1={"Physics"}
           sub2={"Chemistry"}
-          sub3={"Maths"}
+          sub3={"Biology"}
         />
         <Junior
           boxnum={2}
@@ -72,24 +73,24 @@ const index = () => {
 
           <div className={styles.instructions}>
             <ul className={styles.ul}>
-              <li>
+              <li className={styles.li}>
                 Schools are allowed to enter as many of their students as they
                 would like to register.
               </li>
-              <li>
+              <li className={styles.li}>
                 Schools must register their students with the same name and
                 phone number with which the students are registered (or will
                 register) on the uLesson app.
               </li>
-              <li>
+              <li className={styles.li}>
                 Schools must register their participants before the registration
                 deadline date.
               </li>
-              <li>
+              <li className={styles.li}>
                 Schools must ensure that their participants register for the
                 exams on the uLesson app before the deadline date.
               </li>
-              <li>
+              <li className={styles.li}>
                 The decisions of the organizers - uLesson Education Limited, are
                 final in every aspect of the challenge.
               </li>

@@ -181,7 +181,7 @@ right: 0px;
     }
     .howmany{
         height: 30px;
-width: 328px;
+width: 100%;
 left: 0px;
 top: 0px;
 border-radius: nullpx;
@@ -189,41 +189,46 @@ text-align: left;
     }
     .candidateq{
         height: 78px;
-width: 328px;
+width: 100%;
 left: 0px;
 top: 74px;
 border-radius: 0px;
+margin-left: 20px;
 
     }
     .formreg{
         height: 4600px;
-width: 341px;
-left: 16px;
-top: 186px;
+width: 100%;
+left: 0px;
+top: 146px;
 border-radius: 0px;
+padding: 20px;
 
     }
     .part2school{
-        height: 528px;
-width: 327px;
+        height: 578px;
+width: 100%;
 left: 0px;
-top: 555px;
+top: 665px;
 border-radius: 0px;
+margin-top: 62px;
+padding: 20px;
 
     }
     .part3school{
         height: 3317px;
-width: 341px;
+width: 100%;
 left: 0px;
-top: 1155px;
+top: 1355px;
 border-radius: 0px;
+padding: 20px;
 
     }
     .submitt{
         height: 56px;
 width: 128px;
-left: 1%;
 
+left: 0px;
 border-radius: 10px;
 padding: 18px, 32px, 18px, 32px;
 

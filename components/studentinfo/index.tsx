@@ -19,35 +19,35 @@ const index :FC<proptype>= (props) => {
         </div>
         <div className="gender3">
               <label className="form_label" htmlFor="country">Gender</label>
-                 <select className='form__input3' id="country" name="country">
+                 <select className='form__inputt3' id="country" name="country">
                     <option value="australia">Male</option>
                     <option value="canada">Female</option>
                   </select>
         </div>
         <div className="gender4">
         <label className='form_label' htmlFor="birthday">Date Of Birth</label>
-         <input className='form__input3' type="date" id="birthday" name="birthday"/>
+         <input className='form__input3' type="text" id="birthday" name="birthday" placeholder='01 /12 / 2002'/>
          </div>
         </div>
         <div className={styles.sicol}>
         
         <div className="gender5">
               <label className="form_label" htmlFor="country">Grade Group</label>
-                 <select className='form__input3' id="country" name="country">
+                 <select className='form__inputt3' id="country" name="country">
                     <option value="australia">Junior Secondary</option>
                     <option value="canada">Senior Secondary</option>
                   </select>
         </div>
         <div className="gender6">
               <label className="form_label" htmlFor="country">Competition Category</label>
-                 <select className='form__input3' id="country" name="country">
+                 <select className='form__inputt3' id="country" name="country">
                     <option value="australia">Science</option>
                     <option value="canada">Female</option>
                   </select>
         </div>
         <div className="gender7">
               <label className="form_label" htmlFor="country">Class</label>
-                 <select className='form__input3' id="country" name="country">
+                 <select className='form__inputt3' id="country" name="country">
                     <option value="australia">Year 7 / Grade 7 / JSS1</option>
                     <option value="canada">Year 8 / Grade 8 / JSS1</option>
                   </select>

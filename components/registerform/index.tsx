@@ -23,12 +23,12 @@ const index :FC<proptype>= (props) => {
         <div className={styles.instructions}>
            
             <ul className={styles.ul}>
-                <li >{props.in1}</li>
-                <li>{props.in2}</li>
-                <li>{props.in3}</li>
-                <li>{props.in4}</li>
-                <li>{props.in5}</li>
-                <li>{props.in6}</li>
+                <li className={styles.li} >{props.in1}</li>
+                <li className={styles.li}>{props.in2}</li>
+                <li className={styles.li}>{props.in3}</li>
+                <li className={styles.li}>{props.in4}</li>
+                <li className={styles.li}>{props.in5}</li>
+                <li className={styles.li}>{props.in6}</li>
             </ul>
         </div>
         </div>

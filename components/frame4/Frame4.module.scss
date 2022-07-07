@@ -70,14 +70,12 @@ left: 870px;
 top: 670px;
 
 opacity: 0.5;
-border: 3px dashed #301446;
+border: 2px dashed #301446;
 transform: rotate(90deg);
-background-image: url(../../public/Line14.svg);
-background-size: contain;
-background-repeat: no-repeat;
+
 }
 .dottedline2{
-    background-image: url(../../public/Line13.svg);
+    
 position: absolute;
     
 width: 579px;
@@ -85,7 +83,7 @@ height: 0px;
 left: 1px;
 top: 650px;
 opacity: 0.5;
-border: 3px dashed #301446;
+border: 2px dashed #301446;
 transform: rotate(90deg);
 
 
@@ -93,10 +91,13 @@ transform: rotate(90deg);
 
 @media screen and (max-width:426px){
     .frame4container{
-        height: 1223px;
-width: 90%;
+        height: 1239px;
+width: 96%;
 
-left: 2%;
+left: 1%;
+display: flex;
+align-items: center;
+justify-content: center;
 //top: 4318px;
 border-radius: 0px;
 // background: url(../../public/Frame19775.svg);
@@ -105,8 +106,8 @@ border-radius: 0px;
 
     }
     .fcont{
-        top:4673px;
-        height: 1600px;
+        top:4318px;
+        height: 1289px;
     }
     
     .frame4title{
@@ -127,23 +128,23 @@ position: absolute;
     .stage1,.stage2,.stage3{
         width: 100%;
         left: 15px;
-        height: 480px;
+        height: 323px;
     }
     .stage1{
         top: 12%;
     }
     .stage2{
-        top: 50%;
+        top: 43%;
     }
     .stage3{
-        top: 90%;
+        top: 74%;
     }
     .dottedline1{
         left: -239px;
-        top: 850px;
+        top: 750px;
     }
     .dottedline2{
-        top: 850px;
+        top: 750px;
         left: 10%;
     }
 }

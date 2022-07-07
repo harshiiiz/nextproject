@@ -7,7 +7,7 @@ import Frame2 from '../components/frame2'
 import Frame3 from '../components/frame3'
 import Frame4 from '../components/frame4'
 import Frame5 from '../components/frame5'
-import Faq from '../components/faq'
+import Faq3 from '../components/faq3'
 import Contact from '../components/contact'
 import Footer from '../components/footer'
 
@@ -28,7 +28,7 @@ const Home: NextPage = () => {
         <Frame3/>
         <Frame4/>
         <Frame5/>
-        <Faq/>
+        <Faq3/>
         <Contact/>
         <Footer/>
          

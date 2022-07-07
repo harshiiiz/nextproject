@@ -75,7 +75,7 @@ border-radius: 4px 0px 0px 4px;
 @media screen and (max-width:426px){
   .link{
     height: 92px;
-width: 328px;
+width: 100%;
 left: 16px;
 top: 558px;
 border-radius: 0px;
@@ -83,27 +83,33 @@ border-radius: 0px;
   }
   .junior{
     height: 32px;
-width: 328px;
-left: 0px;
+width: 100%;
+left: auto;
+display: flex;
+align-items: center;
+text-align: center;
+justify-content: center;
 
   }
   .drivelink{
     height: 56px;
-    width: 309px;
-    left: 10px;
+    width: 100%;
+    left: 0px;
     top: 0px;
     font-size: 16px;
 line-height: 120%;
     border-radius: nullpx;
     text-align: center;
-    overflow: auto;
+    word-break:break-all;
+    
+    
     
   }
   
   .jtext{
-
+justify-content: center;
 height: 15px;
-left: 143px;
+left: auto;
 top: 8px;
 
 font-family: 'Montserrat';

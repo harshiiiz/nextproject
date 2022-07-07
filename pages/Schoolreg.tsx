@@ -55,7 +55,7 @@ const Schoolreg = () => {
                   <input
                     type="image"
                     id="plus"
-                    src="plus.svg"
+                    src="inc.svg"
                     onClick={incrementCounter}
                   />
                 </div>
@@ -69,7 +69,7 @@ const Schoolreg = () => {
                   <input
                     type="image"
                     id="minus"
-                    src="minus.svg"
+                    src="dec.svg"
                     onClick={decrementCounter}
                   />
                 </div>
@@ -81,7 +81,7 @@ const Schoolreg = () => {
               ))}
               <div className={styles.submitt}>
                 <Link href={'/congratschool'} className={styles.btntext}>Submit</Link>
-                {/* <Button name="Submit" btnlink="/congratschool" /> */}
+               
               </div>
             </div>
           </div>

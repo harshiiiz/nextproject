@@ -6,7 +6,9 @@ const index = () => {
     <div className={styles.frame2container}>
     <div className={styles.framecontainer}>
         <h2 className={styles.benefits}>Benefits & Awards</h2>
+        <div className={styles.frame19773}>
         <div className={styles.prizes}> </div>
+        </div>
         <div className={styles.frame19723}>
             
             <div className={styles.icon}></div>

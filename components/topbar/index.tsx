@@ -1,5 +1,5 @@
 import React from 'react'
-import Button from '../button'
+import Link from 'next/link'
 import styles from '../topbar/Topbar.module.scss'
 import Nav from '../nav/Index'
 import Group36540 from '../../public/trophy.svg'
@@ -25,7 +25,7 @@ const Topbar = () => {
     </div>
     
     <div className={styles.btn}>
-    <Button name={'Register Now'} btnlink={'/Studentreg'}/>
+    <Link href={'/'} className='btntext'>Register Now</Link>
     </div>
     </div>
     <div className={styles.person}>

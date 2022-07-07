@@ -115,6 +115,7 @@ top: 35px;
 
 }
 .date{
+    justify-content: center;
     display: flex;
 flex-direction:row;
 align-items: center;
@@ -173,38 +174,56 @@ letter-spacing: -0.06em;
 
     .stagecontainer{
         width: 95%;
-        height: 420px;
+        height: 323px;
+        padding: 24px;
+        
+    }
+    .stage{
+        font-size: 24px;
     }
     .frame19715{
-        width: 100%;
-        left: 1px;
-        height: 180px;
-        top: 35%;
+        width: 95%;
+        left: auto;
+        height: 164px;
+        top: 90px;
+        margin-top: 30px;
     }
     .frame19713 {
-        width: 100%;
-        height: 100px;
+        width: 95%;
+        height: 120px;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .ellipse1 , .ellipse2{
+        top: auto;
     }
     .frame19714{
         height: 40px;
         width: 90%;
         top: 80%;
+        margin-top: 14px;
     }
     .text1{
         top: 0px;
-        width: 90%;
-        height: 100px;
-        left: 20px;
+        width: 89%;
+        height: 120px;
+        left: 16px;
     }
     .text2{
         width: 100%;
         
     }
     .frame36524{
+        top: auto;
         width: 90%;
-        left: 5%;
+        left: auto;
         
-    height: 102px;
+    height: 73px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
     }
     
     .date{
@@ -213,15 +232,17 @@ padding: 0px;
 gap: 8px;
 
 position: absolute;
-width: 90%;
-height: 56px;
+width: 95%;
+height: 36px;
 left: 0px;
-top: 40%;
+top: 41px;
 
     }
+    
     .day{
 width: fit-content;
-height: 56px;
+height: 36px;
 top: 0px;
+font-size: 16px;
     }
 }

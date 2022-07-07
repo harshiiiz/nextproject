@@ -1,0 +1,47 @@
+.accitem{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+
+
+
+.acctitle{
+    display: flex;
+ align-items: center;
+ justify-content: space-between;
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 28px;
+/* identical to box height, or 140% */
+
+letter-spacing: -0.06em;
+
+/* Neutral/800 */
+
+
+}
+
+
+.acccontent{
+    font-family: 'Mulish';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 30px;
+/* or 167% */
+
+letter-spacing: -0.01em;
+
+color: #301446;
+
+opacity: 0.7;
+}
+
+@media screen and (max-width:426px){
+
+    
+}

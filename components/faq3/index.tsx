@@ -25,7 +25,7 @@ const index = () => {
       <h2 className={styles.faqtitle}>Frequently Asked Questions</h2>
       <div className={styles.accordion}>
         {accordionData.map(({ title, content }) => (
-          <Accordion title={title} content={content} />
+          <Accordion title={title} content={content}key={title}/>
         ))}
       </div>
     </div>

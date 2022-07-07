@@ -653,28 +653,7 @@ right: 34.6%; */
   flex-grow: 0;
 }
 
-.plus{
-  background-image: url(../public/plus.svg);
 
-  background-size: contain;
-  background-repeat: no-repeat;
-  display: flex;
-  width: 15.82px !important;
-  height: 14px;
-  
-  align-items: flex-end;
-}
-.minus{
-  background-image: url(../public/minus.svg);
-
-  background-size: contain;
-  background-repeat: no-repeat;
-  display: flex;
-  width: 15.82px !important;
-  height: 14px;
-  
-  align-items: flex-end;
-}
 .black{
   color: #170F49;
 }

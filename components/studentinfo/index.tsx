@@ -26,7 +26,7 @@ const index :FC<proptype>= (props) => {
         </div>
         <div className="gender4">
         <label className='form_label' htmlFor="birthday">Date Of Birth</label>
-         <input className='form__input3' type="text" id="birthday" name="birthday" placeholder='01 /12 / 2002'/>
+         <input className='form__inputbd' type="text" id="birthday" name="birthday" placeholder='01 /12 / 2002'/>
          </div>
         </div>
         <div className={styles.sicol}>

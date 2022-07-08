@@ -47,7 +47,7 @@ const studentreg = () => {
             <div className="frame19751">
             <div className="gender">
         <label className='form_label' htmlFor="birthday">Date Of Birth</label>
-         <input className='form__input' type="text" id="birthday" name="birthday" placeholder="01 /12 / 1986"/>
+         <input className='form__inputbd' type="text" id="birthday" name="birthday" placeholder="01 /12 / 1986"/>
          </div>
          <div className="gender">
               <label className="form_label" htmlFor="country">Grade Group</label>
@@ -99,7 +99,7 @@ const studentreg = () => {
             />
           </div>
         </div>
-        <div className="column2">
+        <div className="column22">
           <div className="schcountry">
             <label className="form_label" htmlFor="lastName">
               School Country{" "}
@@ -108,7 +108,7 @@ const studentreg = () => {
               type="text"
               name=""
               id="lastName"
-              className="form__input"
+              className="form__inputbc"
               placeholder="Nigeria"
             />
           </div>
@@ -125,7 +125,7 @@ const studentreg = () => {
           
           
         </div>
-        <div className="column3">
+        <div className="column33">
           <div className="email">
             <label className="form_label" htmlFor="email">
               Principal’s Email Address

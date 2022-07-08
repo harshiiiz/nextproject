@@ -34,8 +34,8 @@ const index :FC<proptype>= (props) => {
         <div className="gender5">
               <label className="form_label" htmlFor="country">Grade Group</label>
                  <select className='form__inputt3' id="country" name="country">
-                    <option value="australia">Junior Secondary</option>
-                    <option value="canada">Senior Secondary</option>
+                    <option value="australia">Senior Secondary</option>
+                    <option value="canada">Junior Secondary</option>
                   </select>
         </div>
         <div className="gender6">
@@ -53,7 +53,7 @@ const index :FC<proptype>= (props) => {
                   </select>
         </div>
         <div className="gender8">
-                  <label className="form_label" htmlFor="password">Principal’s Phone Number </label>
+                  <label className="form_label" htmlFor="password">Registered uLesson Number</label>
                   <input className="form__input3" type="number"  id="password" placeholder=""/>
               </div>
 

@@ -52,12 +52,13 @@ const Schoolreg = () => {
               </div>
               <div className="countercontainer">
                 <div id="incrementcount">
-                  <input
+                  {/* <input
                     type="image"
                     id="plus"
                     src="inc.svg"
                     onClick={incrementCounter}
-                  />
+                  /> */}
+                  <Image src={'/inc.svg'}  width={38} height={40} id="plus" onClick={incrementCounter}></Image>
                 </div>
                 <div id="count">
                   <div className="countinput">
@@ -66,12 +67,13 @@ const Schoolreg = () => {
                   </div>
                 </div>
                 <div id="decrementcount">
-                  <input
+                  {/* <input
                     type="image"
                     id="minus"
                     src="dec.svg"
                     onClick={decrementCounter}
-                  />
+                  /> */}
+                  <Image src={'/dec.svg'}  width={37} height={39} id="plus" onClick={decrementCounter}></Image>
                 </div>
               </div>
             </div>
@@ -80,8 +82,9 @@ const Schoolreg = () => {
                 <Studentinfo infonum={i + 1} key={e} />
               ))}
               <div className={styles.submitt}>
-                <Link href={'/congratschool'} className={styles.btntext}>Submit</Link>
-               
+                <Link href={"/congratschool"} className={styles.btntext}>
+                  Submit
+                </Link>
               </div>
             </div>
           </div>

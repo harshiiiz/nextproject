@@ -99,7 +99,7 @@ const studentreg = () => {
             />
           </div>
         </div>
-        <div className="column3">
+        <div className="column2">
           <div className="schcountry">
             <label className="form_label" htmlFor="lastName">
               School Country{" "}

@@ -28,7 +28,7 @@ const index = () => {
               type="text"
               name=""
               id="lastName"
-              className="form__inputbc"
+              className={styles.form__inputbc}
               placeholder="Nigeria"
             />
           </div>

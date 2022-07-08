@@ -208,8 +208,50 @@ letter-spacing: 0.4px;
 color: #FFFFFF;
 
 }
-
-
+.form__inputbc{
+    box-sizing: border-box;
+  
+    width: 316px;
+    height: 40px;
+  
+    background:  #F9FAFF;;
+    border: 1px solid #e0e7ff;
+    border-radius: 4px;
+    font-family: "Mulish";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 110%;
+    color: rgba(48, 20, 70, 0.7);
+    padding-left: 10px;
+    background-image: url(../public/flag.svg);
+      background-repeat: no-repeat;
+      background-position-x: 5px;
+      background-position-y: 12px;
+      padding-left: 30px;
+  }
+  .form__inputbd{
+    box-sizing: border-box;
+  
+    width: 316px;
+    height: 40px;
+  
+    background:  #F9FAFF;;
+    border: 1px solid #e0e7ff;
+    border-radius: 4px;
+    font-family: "Mulish";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 110%;
+    color: rgba(48, 20, 70, 0.7);
+    padding-left: 10px;
+    background-image: url(../public/bd.svg);
+      background-repeat: no-repeat;
+      background-position-x: 5px;
+      background-position-y: 12px;
+      padding-left: 40px;
+  }
 @media screen and (max-width:426px){
     
     .container{
@@ -226,6 +268,20 @@ top: 0px;
 
 
     }
+    .form__inputbd {
+        height: 40px;
+        width: 100%;
+        left: 0px;
+        top: 23px;
+        border-radius: 4px;
+      }
+    .form__inputbc {
+        height: 40px;
+        width: 100%;
+        left: 0px;
+        top: 23px;
+        border-radius: 4px;
+      }
 
 .detailscontainer{
     height: 578px;

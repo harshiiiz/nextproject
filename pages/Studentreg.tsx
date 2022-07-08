@@ -47,7 +47,7 @@ const studentreg = () => {
             <div className="frame19751">
             <div className="gender">
         <label className='form_label' htmlFor="birthday">Date Of Birth</label>
-         <input className='form__inputbd' type="text" id="birthday" name="birthday" placeholder="01 /12 / 1986"/>
+         <input className={styles.form__inputbd} type="text" id="birthday" name="birthday" placeholder="01 /12 / 1986"/>
          </div>
          <div className="gender">
               <label className="form_label" htmlFor="country">Grade Group</label>
@@ -108,7 +108,7 @@ const studentreg = () => {
               type="text"
               name=""
               id="lastName"
-              className="form__inputbc"
+              className={styles.form__inputbc}
               placeholder="Nigeria"
             />
           </div>

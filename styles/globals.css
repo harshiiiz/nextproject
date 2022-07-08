@@ -292,6 +292,7 @@ right: 34.6%; */
   display: flex;
   flex-direction: row;
   align-items: flex-start;
+  justify-content: space-between;
   padding: 0px;
   gap: 24px;
 
@@ -813,8 +814,8 @@ align-items: flex-start;
     top: 23px;
     border-radius: 4px;
   }
-  .column2,
-  .column3 {
+  .column2
+   {
     height: 222px;
     width: 100%;
     left: 0px;
@@ -822,6 +823,16 @@ align-items: flex-start;
     border-radius: 0px;
     display: flex;
     flex-direction: column;
+  }
+  .column3{
+    height: 130px;
+    width: 100%;
+    left: 0px;
+    top: 176px;
+    border-radius: 0px;
+    display: flex;
+    flex-direction: column;
+
   }
   .location{
     width: 100%;

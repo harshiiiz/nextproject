@@ -52,13 +52,13 @@ const studentreg = () => {
          <div className="gender">
               <label className="form_label" htmlFor="country">Grade Group</label>
                  <select className='form__inputt' id="country" name="country">
-                    <option value="australia">Male</option>
+                    <option value="australia">Senior Secondary</option>
                     <option value="canada">Female</option>
                   </select>
         </div>
          <div className='gender'>
                   <label className="form_label"  htmlFor="lastName">Category</label>
-                  <input  type="text" name="" id="lastName"  className='form__input'placeholder=""/>
+                  <input  type="text" name="" id="lastName"  className='form__input'placeholder="Humanities"/>
         </div>
         
             </div>
@@ -99,7 +99,7 @@ const studentreg = () => {
             />
           </div>
         </div>
-        <div className="column2">
+        <div className="column3">
           <div className="schcountry">
             <label className="form_label" htmlFor="lastName">
               School Country{" "}
@@ -123,16 +123,7 @@ const studentreg = () => {
             </select>
           </div>
           
-          <div className="examlocation">
-            <label className="form_label" htmlFor="country">
-              Preferred Exam location
-            </label>
-            <select className="form__inputt" id="country" name="country">
-              <option value="australia">Lagos</option>
-              <option value="canada">Canada</option>
-              <option value="usa">USA</option>
-            </select>
-          </div>
+          
         </div>
         <div className="column3">
           <div className="email">
@@ -143,6 +134,17 @@ const studentreg = () => {
               type="email"
               id="email"
               className="form__input"
+              placeholder=""
+            />
+          </div>
+          <div className="examlocation">
+            <label className="form_label" htmlFor="country">
+            Name of Principal / Head of School
+            </label>
+             <input
+              className="form__input"
+              type="text"
+              id="password"
               placeholder=""
             />
           </div>

@@ -130,6 +130,30 @@
     color: rgba(48, 20, 70, 0.75);
 
 }
+.line1{
+    border: 1px solid rgba(48, 20, 70, 0.15);
+transform: rotate(90deg);
+width: 138px;
+height: 0px;
+position: absolute;
+left: 350px;
+top: 95px;
+
+
+
+}
+.line2{
+    border: 1px solid rgba(48, 20, 70, 0.15);
+transform: rotate(90deg);
+width: 138px;
+height: 0px;
+position: absolute;
+left: 740px;
+top: 95px;
+
+
+
+}
 
 
 @media screen and (max-width:426px) {
@@ -140,7 +164,23 @@
         height: 350px;
         top: 624px;
     }
+ .line1{
+    width: 88%;
+height: 0px;
+left: 25px;
+top: 105px;
+transform: rotate(180deg);
+border: 1px solid rgba(48, 20, 70, 0.05);
 
+ }
+ .line2{
+    width: 85%;
+    transform: rotate(180deg);
+height: 0px;
+left: 25px;
+top: 220px;
+border: 1px solid rgba(48, 20, 70, 0.05);
+ }
     .ccont {
         width: 100%;
         left: 0px;
@@ -168,7 +208,7 @@
     }
 
     .txt2 {
-        margin-left: 48px;
+        margin-left: 51px;
         margin-top: 0px;
         font-size: 12px;
     }

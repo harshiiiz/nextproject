@@ -19,14 +19,21 @@ const Index = () => {
     <div className={styles.countcont}>
       <div className={styles.ccont}>
         <div className={styles.grp19444}>
+        
           <div className={styles.grp19442}>
+           
             <div className={styles.img}>
               <Image src={"/ic1.svg"} width={64} height={64}></Image>
             </div>
             <div className={styles.grp19442txt}>21</div>
+            
+          
           </div>
+          <div className={styles.line1}></div>
+          
           <div className={styles.txt2}>SCHOOLS REGISTERED</div>
         </div>
+        
         <div className={styles.grp19445}>
           <div className={styles.grp19443}>
             <div className={styles.img}>
@@ -35,7 +42,9 @@ const Index = () => {
             <div className={styles.grp19443txt}>4025</div>
           </div>
           <div className={styles.txt2}>STUDENTS REGISTERED</div>
+          <div className={styles.line2}></div>
         </div>
+       
         <div className={styles.grp19446}>
           <div className={styles.grp19441}>
             <div className={styles.img}>

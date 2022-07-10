@@ -1,126 +1,119 @@
-.jtext{
-    position: absolute;
+.jtext {
   
-  height: 22px;
-  left: 25px;
-  top: 17px;
+
   
+  
+
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 600;
   font-size: 20px;
   line-height: 110%;
   /* identical to box height, or 22px */
-  
+
   display: flex;
   align-items: center;
   letter-spacing: -0.06em;
-  
-  color: rgba(48, 20, 70, 0.7);
-  }
-  .drivelink{
-    position: absolute;
-  
-  height: 22px;
-  left: 10px;
-  top: 15px;
 
+  color: rgba(48, 20, 70, 0.7);
+}
+
+.drivelink {
   
+
+  height: 22px;
+  
+ 
+
+
   font-family: 'Mulish';
   font-style: normal;
   font-weight: 600;
   font-size: 20px;
   line-height: 110%;
   /* identical to box height, or 22px */
-  
+
   display: flex;
   align-items: center;
+  justify-content: center;
   letter-spacing: -0.01em;
-  
+
   color: #2640C9;
-  
-  }
-  
-.link{
-    box-sizing: border-box;
-
-width: 900px;
-height: 56px;
-
-background: #F9FAFF;
-border: 1px solid #E0E7FF;
-border-radius: 4px;
-
-/* Inside auto layout */
-
-flex: none;
-order: 0;
-flex-grow: 0;
-}
-.junior{
-    box-sizing: border-box;
-
-position: absolute;
-width: 281px;
-height: 56px;
-left: 0px;
-
-background: #FFFFFF;
-border: 1px solid #E0E7FF;
-border-radius: 4px 0px 0px 4px;
 
 }
 
+.link {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 
-@media screen and (max-width:426px){
-  .link{
-    height: 92px;
-width: 100%;
-left: 16px;
-top: 558px;
-border-radius: 0px;
+  background: #F9FAFF;
+  border: 1px solid #E0E7FF;
+  border-radius: 4px;
+
+  /* Inside auto layout */
+
+  
+}
+
+.junior {
+  box-sizing: border-box;
+   display: flex;
+   padding-left: 25px;
+   align-items: center;
+  
+  width: 281px;
+  height: 56px;
+  
+
+  background: #FFFFFF;
+  border: 1px solid #E0E7FF;
+  border-radius: 4px 0px 0px 4px;
+
+}
+
+
+@media screen and (max-width:426px) {
+  .link {
+    
+    width: 100%;
+   flex-direction: column;
 
   }
-  .junior{
+
+  .junior {
+    justify-content: center;
+    padding-left: 0px;
     height: 32px;
-width: 100%;
-left: auto;
-display: flex;
-align-items: center;
-text-align: center;
-justify-content: center;
+    width: 100%;
+    
 
   }
-  .drivelink{
+
+  .drivelink {
     height: 56px;
     width: 100%;
     left: 0px;
     top: 0px;
     font-size: 16px;
-line-height: 120%;
+    line-height: 120%;
     border-radius: nullpx;
     text-align: center;
-    word-break:break-all;
-    
-    
-    
+    word-break: break-all;
+
+
+
   }
-  
-  .jtext{
-justify-content: center;
-height: 15px;
-left: auto;
-top: 8px;
 
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 600;
-font-size: 14px;
-line-height: 110%;
-/* or 15px */
+  .jtext {
+    
 
-display: flex;
-align-items: center;
-text-align: center;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 110%;
+    /* or 15px */
   }
 }

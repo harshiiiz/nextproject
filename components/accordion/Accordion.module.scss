@@ -1,6 +1,5 @@
 .accitem{
-    display: flex;
-    flex-direction: column;
+   
     margin-bottom: 10px;
 }
 
@@ -40,8 +39,17 @@ color: #301446;
 
 opacity: 0.7;
 }
+.img{
+    width: 18px;
+    height: 16px;
+}
 
 @media screen and (max-width:426px){
 
-    
+    .acctitle{
+        flex-direction: row;
+    }
+    .img{
+        margin: 10px;
+    }
 }

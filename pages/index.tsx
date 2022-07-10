@@ -10,6 +10,7 @@ import Frame5 from '../components/frame5'
 import Faq3 from '../components/faq3'
 import Contact from '../components/contact'
 import Footer from '../components/footer'
+import Countdown from '../components/countdown'
 
 
 const Home: NextPage = () => {
@@ -25,6 +26,7 @@ const Home: NextPage = () => {
       <div className={styles.tabcontainer}>
         <Topbar/>
         <Frame2/>
+        <Countdown/>
         <Frame3/>
         <Frame4/>
         <Frame5/>

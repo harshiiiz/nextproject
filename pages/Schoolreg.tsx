@@ -22,14 +22,17 @@ const Schoolreg = () => {
   return (
     <div className={styles.scont}>
       <div className={styles.schcontainer}>
-        <Link href="/">
-          <a className="cross">
-            <Image src={cros} width={32} height={32} alt=""></Image>
-          </a>
-        </Link>
-        <div className="ico">
-          <Image src={logo} width={133} height={22} alt=""></Image>
-        </div>
+      <div className={styles.nav}>
+      
+      <div className={styles.ico}>
+      <Image src={logo}  width={133} height={22}  alt='' ></Image>
+      </div>
+      <Link href={'/'}>
+      <a  className={styles.cross}>
+      <Image src={cros} width={32} height={32} alt=''></Image>
+      </a>
+      </Link>
+      </div>
 
         <div className={styles.formreg}>
           <Registerform

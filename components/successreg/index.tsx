@@ -9,7 +9,8 @@ import cros from '../../public/cross.svg'
 
 interface proptype{
     regtext:string;
-    followlink:string;
+    followlink1:string;
+    followlink2:string;
     num:number;
 
 }
@@ -19,14 +20,18 @@ const index :FC<proptype>= (props) => {
   return (
     <div className={styles.congcontainer}>
     <div className={styles.congocontainer}>
-      <Link href={'/'}>
-        <a  className="cross">
+      <div className={styles.nav}>
+      
+        <div className={styles.ico}>
+        <Image src={logo}  width={133} height={22}  alt='' ></Image>
+        </div>
+        <Link href={'/'}>
+        <a  className={styles.cross}>
         <Image src={cros} width={32} height={32} alt=''></Image>
         </a>
         </Link>
-        <div className="ico">
-        <Image src={logo}  width={133} height={22}  alt='' ></Image>
         </div>
+        <div className={styles.cont}>
         <div className={styles.congoicon}></div>
         <div className={styles.reg}>
             <div className={styles.regtext1}>Registration Successful</div>
@@ -34,7 +39,9 @@ const index :FC<proptype>= (props) => {
 
         </div>
         
-        <div className={styles.followlink}>{props.followlink}</div>
+        <div className={styles.followlink}>
+          <p>{props.followlink1}</p>
+          <p>{props.followlink2}</p></div>
         
         <div className={`link${props.num}`}>
         <Drivelink txt1='Junior' txt2="https://docs.google.com/document/d/19Wx7dHRYBDDKXDDHjb" linknum={1}/>
@@ -46,6 +53,7 @@ const index :FC<proptype>= (props) => {
         </div>
         <div className='otherlink3'>
         <Drivelink txt1='Senior (Humanities)' txt2='https://docs.google.com/document/d/19Wx7dHRYBDDKXDDHjb'linknum={4}/>
+        </div>
         </div>
         </div>
     </div>

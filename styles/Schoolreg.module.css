@@ -37,7 +37,8 @@ top: 148px;
 width: 128px;
 left: 868px;
 padding: 18px 32px;
-gap: 10px;
+
+margin-top: 72px;
 
 
 
@@ -162,8 +163,33 @@ flex: none;
 order: 0;
 flex-grow: 0;
 }
+.nav{
+    margin-top: 46px;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    width: 997px;
+    
+    left: 20%;
+
+}.cross{
+    width: 32px;
+    height: 32px;
+    display: flex;
+    justify-content: flex-end;
+}
 
 @media screen and (max-width:426px){
+    .nav{
+        padding-left: 16px;
+        padding-right: 16px;
+        width: 100%;
+        margin-top: 78px;
+        left: 0px;
+    }
     .scont{
         height: 4989px;
     }

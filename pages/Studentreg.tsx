@@ -12,14 +12,17 @@ const studentreg = () => {
   return (
     <div className={styles.regcontainer}>
     <div className={styles.container}>
+    <div className={styles.nav}>
+      
+      <div className={styles.ico}>
+      <Image src={logo}  width={133} height={22}  alt='' ></Image>
+      </div>
       <Link href={'/'}>
-      <a  className='cross'>
-        <Image src={cros} width={32} height={32} alt=''></Image>
+      <a  className={styles.cross}>
+      <Image src={cros} width={32} height={32} alt=''></Image>
       </a>
       </Link>
-      <div className="ico">
-    <Image src={logo}  width={133} height={22}  alt='' ></Image>
-    </div>
+      </div>
     <div className={styles.form}>
         <Registerform formtitle='uLesson Challenge Registration (Student)' in1='Student MUST have an accessible uLesson account. Don’t have an account? Click here to sign up on uLesson.' in2='Fill in School details in fields provided.' in3='Complete your personal details' in4='Please ensure that the mobile number you provide is the same as the contact on your uLesson account. ' in5='Review and submit your details.' in6='This competition is open to schools and students in Nigeria only'/>
         

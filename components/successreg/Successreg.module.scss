@@ -1,187 +1,207 @@
-.congocontainer{
-    position: absolute;
-width: 1440px;
-height: 1079px;
-left:calc(50% - 750px);
-align-items: center;
-justify-content: center;
-right: calc(50% - 600px);;
-background: #FFFFFF;
-}
-.congcontainer{
-    
+.congocontainer {
 
+    max-width: 1440px;
+    width: 100%;
+   
+    display: flex;
     align-items: center;
     justify-content: center;
-    position: absolute;
+     display: flex;
+    background: #FFFFFF;
+    flex-direction: column;
+}
+
+.congcontainer {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
     width: 100%;
-    height: 1079px;
-    top: 0px;
+    
 
 
 }
-.congoicon{
+.cross{
+    width: 32px;
+    height: 32px;
+    display: flex;
+    justify-content: flex-end;
+}
+.nav{
+    margin-top: 46px;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.cont {
+    width: 80%;
+    padding: 0% 5% 0% 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.congoicon {
     background-image: url(../../public/congoicon.svg);
     background-repeat: no-repeat;
     background-size: contain;
-    position: absolute;
-width: 186px;
-height: 186px;
-left: 45%;
-top: 10%;
+
+    width: 186px;
+    height: 186px;
+
 }
-.reg{
+
+.reg {
     display: flex;
-flex-direction: column;
-align-items: center;
-padding: 0px;
-gap: 16px;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
 
-position: absolute;
-width: 608px;
-height: 100px;
-left: 30%;
-top: 25%;
 
-}
-.regtext1{
-    width: 600px;
-height: 62px;
-
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 600;
-font-size: 56px;
-line-height: 110%;
-/* identical to box height, or 62px */
-
-display: flex;
-align-items: center;
-letter-spacing: -0.06em;
-
-color: #301446;
+    width: 608px;
+    height: 100px;
 
 
 }
-.regtext2{
+
+.regtext1 {
+    
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 110%;
+    /* identical to box height, or 62px */
+
+
+    letter-spacing: -0.06em;
+
+    color: #301446;
+
+
+}
+
+.regtext2 {
     height: 22px;
 
-font-family: 'Mulish';
-font-style: normal;
-font-weight: 600;
-font-size: 20px;
-line-height: 110%;
-/* identical to box height, or 22px */
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 110%;
+    /* identical to box height, or 22px */
 
-display: flex;
-align-items: center;
-letter-spacing: -0.01em;
 
-color: #301446;
+    letter-spacing: -0.01em;
 
-opacity: 0.7;
+    color: #301446;
 
-/* Inside auto layout */
+    opacity: 0.7;
 
-flex: none;
-order: 1;
-flex-grow: 0;
-}
-.followlink{
-    position: absolute;
+    /* Inside auto layout */
 
-height: 66px;
-left: 20%;
-top: 38%;
-//white-space: nowrap;
-font-family: 'Mulish';
-font-style: normal;
-font-weight: 600;
-font-size: 20px;
-line-height: 110%;
-/* or 22px */
-
-display: flex;
-align-items: center;
-text-align: center;
-letter-spacing: -0.01em;
-
-color: #301446;
-
-opacity: 0.7;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
 }
 
-@media screen and (max-width:426px){
-    .congocontainer{
-        height: 1230px;
-width: 100%;
-left: 0px;
-right: 0px;
-display: flex;
-padding: 10px;
+.followlink {
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 66px;
+    text-align: center;
+    margin-top: 60px;
+    //white-space: nowrap;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 110%;
+    /* or 22px */
 
 
+    letter-spacing: -0.01em;
+
+    color: #301446;
+
+    opacity: 0.7;
+}
+.followlink p{
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    display: flex;
+    
+}
+@media screen and (max-width:426px) {
+    .nav{
+        padding-left: 16px;
+        padding-right: 16px;
+        width: 95%;
+        margin-top: 78px;
     }
-
-    .congoicon{
-        height: 95.13978576660156px;
-width: 95.13978576660156px;
-left: auto;
-top: 188.43017578125px;
-border-radius: 12.276100158691406px;
-
+    .cont{
+        margin-top: 80px;
+        width: 90%;
     }
     .reg{
-        height: 122px;
-width: 100%;
-left: auto;
-top: 320px;
-border-radius: 0px;
+        width: 100%;
+        height: auto;
+    }
+
+    .congoicon {
+        height: 95.13978576660156px;
+        width: 95.13978576660156px;
+        
 
     }
-    .regtext1{
-        height: 70px;
-width: 90%;
-left: auto;
-top: 0px;
-border-radius: nullpx;
-font-size: 32px;
-line-height: 110%;
-display: flex;
-align-items: center;
-text-align: center;
-justify-content: center;
-    }
-    .regtext2{
-        height: 36px;
-width:90%;
 
-top: 86px;
-border-radius: nullpx;
-font-size: 16px;
-align-items: center;
-text-align: center;
+   
+    .regtext1 {
+        
+        border-radius: nullpx;
+        font-size: 32px;
+        line-height: 110%;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
     }
-    .followlink{
-        width: 90%;
-height: 90px;
-left: auto;
-top: 482px;
 
-font-family: 'Mulish';
-font-style: normal;
-font-weight: 600;
-font-size: 16px;
-line-height: 110%;
-/* or 18px */
-
-display: flex;
-align-items: center;
-text-align: center;
+    .regtext2 {
+        
+        font-size: 16px;
+        align-items: center;
+        text-align: center;
     }
-    .links{
-    width: 100%;
-    height: 1000px;
-    left: 0px;
+
+    .followlink {
+       
+       height: auto;
+        font-family: 'Mulish';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 110%;
+        /* or 18px */
+
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+
+    .links {
+        width: 100%;
+        height: 1000px;
+        left: 0px;
     }
 }

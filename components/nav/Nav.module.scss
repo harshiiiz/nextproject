@@ -1,8 +1,10 @@
 .navigation {
     height: 60px;
     width: 100%;
+    max-width: 1440px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
     position: absolute;
    // padding: 0.5rem 0rem;
     margin-top: 42px;
@@ -11,39 +13,29 @@
     
     
     
+    
   }
   .navigationmenu{
-    display: flex;
-flex-direction: row;
-justify-content: flex-end;
-align-items: center;
-padding: 0px;
-gap: 60px;
+    
+
+
 width: 665px;
 height: 50px;
-right: 8%;
-top: calc(50% - 50px/2);
-position: absolute;
+
 
   }
   .ulnav{
+    padding-inline-start: 0px;
     width: 665px;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     justify-content: space-between;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
   }
-  .schoolschallenge{
-    top: 10px;
-    height: 13px;
-    left: 0%;
-   // margin-bottom : 2.8px;
-    min-width: 114px;
-    
-   position: absolute;
-    
-    }
+  
     .navtext1{
       opacity: 0.5;
     white-space : nowrap;
@@ -56,14 +48,7 @@ position: absolute;
     color: #ffffff;
 
     }
-    .learningbundle{
-        top: 10px;
-    height: 13px;
-    left: 25%;
-    width: 102px;
-    //right: 346px;
-    position: absolute;
-    }
+    
     
     .frame19221{
       display: flex;
@@ -81,15 +66,7 @@ position: absolute;
       
         
         }
-    .codingschool{
-        top: 10px;
     
-    height: 13px;
-    left: 50%;
-    width: 89px;
-    
-    position: absolute;
-    }
 
   .brandname {
     background-image: url(../../public/ulessonLogo.svg);
@@ -98,16 +75,14 @@ height: 29px;
 margin-bottom :0;
 width:  120px;
 //position: absolute;
+margin-left: 50px;
 
 top: 10px;
 
     
   
   }
-  .navigationmenu {
-    margin-left: auto;
-  }
-
+  
   .navigationmenu ul, .navigationmenuexpanded ul {
     display: flex;
     //padding: 0;
@@ -115,7 +90,7 @@ top: 10px;
   .navigationmenu li , .navigationmenuexpanded li{
     // removes default disc bullet for li tags and applies margin to left & right side
     list-style-type: none;
-    margin: 0 1rem;
+    
   }
   .navigationmenu li a , .navigationmenuexpanded li a {
     // increases the surface area of the anchor tag to span more than just the anchor text
@@ -148,17 +123,28 @@ top: 10px;
     background-color: #301446;
   }
   .overlapgroup3{
-    align-items : flex-start;
+   
     border-radius: 10px;
-    display: flex;
+    padding: 19px 50px 19px 50px;
     height: 50px;
-    justify-content: flex-end;
-   // margin-left : 60px;
+    
+   
+   background-color: #EA7052;
     width: 180px;
-    padding: 18px 58p;
-    left: 70%;
-    position: absolute;
-    top: 0px;
+    
+    }
+    .btntext{
+      white-space: nowrap;
+      width: 79px;
+height: 13px;
+color: #FFFFFF;
+
+
+font-family: 'Mulish';
+font-style: normal;
+font-weight: 700;
+font-size: 13px;
+line-height: 100%;
     }
 
   @media screen and (max-width: 426px) {
@@ -199,12 +185,13 @@ top: 10px;
       .navigationmenuexpanded ul{
         display: flex;
         width: 100%;
-        
+        height: 50vh;
     -webkit-box-align: center;
     align-items: center;
     flex-direction: column;
     margin-top: 4rem;
     margin-bottom: 7rem;
+    padding-inline-start: 0px;
       }
        .navigationmenuexpanded li{
         // centers link text and strips off margin
@@ -214,34 +201,12 @@ top: 10px;
        
        
       
-      .codingschool{
-        top:15%;
-        left:37%;
-        height: 16px;
-      }
-      .schoolschallenge{
-        cursor: pointer;
-        height: 16px;
-        left: 35%;
-    
       
-      }
-      .learningbundle{
-        height: 16px;
-        top:30%;
-        left: 35%;
-        
-        
-      }
-      .overlapgroup3{
-        left: 32%;
-        top: 45%;
-        width: 130px;
-        height: 40px;
-      }
+      
+      
       .brandname{
         position: absolute;
-left: 8.33%;
+margin-left: auto;
 right: 57.33%;
 top: 5.51%;
 bottom: 91.52%;

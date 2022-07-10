@@ -52,7 +52,7 @@ const Index = () => {
           </li>
           <li className= {styles.overlapgroup3}>
           
-          <Button name={name} btnlink={'/Studentreg'}/>
+          <div className={styles.btntext}>TRY IT NOW</div>
           
           </li>
         </ul>

@@ -11,7 +11,9 @@ const Accordion = ({ title, content }) => {
         
       <div className={styles.acctitle} onClick={() => setIsActive(!isActive)}>
         <p className={isActive ? 'blue' : 'black'}>{title}</p>
+        <div className={styles.img}>
         <Image src={isActive ? '/minus.svg' : '/plusbig.svg'} width={18} height={16}></Image>
+        </div>
         </div>
       
       {isActive && <div className={styles.acccontent}>{content}</div>}

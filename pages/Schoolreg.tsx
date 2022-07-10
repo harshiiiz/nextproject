@@ -25,11 +25,11 @@ const Schoolreg = () => {
       <div className={styles.nav}>
       
       <div className={styles.ico}>
-      <Image src={logo}  width={133} height={22}  alt='' ></Image>
+      <Image src={logo}  width={133} height={22}  alt='ulesson' ></Image>
       </div>
       <Link href={'/'}>
       <a  className={styles.cross}>
-      <Image src={cros} width={32} height={32} alt=''></Image>
+      <Image src={cros} width={32} height={32} alt='back'></Image>
       </a>
       </Link>
       </div>

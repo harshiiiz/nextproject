@@ -3,7 +3,7 @@ import styles from "../countdown/Countdown.module.scss";
 import Image from "next/image";
 import useCountDown from "react-countdown-hook";
 
-const index = () => {
+const Index = () => {
   const [timeLeft, { start }] = useCountDown(422045120, 60000);
   React.useEffect(() => {
     start();
@@ -13,8 +13,7 @@ const index = () => {
   const hours = Math.floor(daysms / (60 * 60 * 1000));
   const hoursms = timeLeft % (60 * 60 * 1000);
   const minutes = Math.floor(hoursms / (60 * 1000));
-  const minutesms = timeLeft % (60 * 1000);
-  const sec = Math.floor(minutesms / 1000);
+  
 
   return (
     <div className={styles.countcont}>
@@ -61,4 +60,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default Index;

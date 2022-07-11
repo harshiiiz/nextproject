@@ -1,7 +1,7 @@
 .container{
     position: absolute;
 width: 1440px;
-height: 2475px;
+height: 1475px;
 left:calc(50% - 750px);
 align-items: center;
 justify-content: center;
@@ -10,7 +10,7 @@ background: #FFFFFF;
 }
 .regcontainer{
     width: 100%;
-    height: 2475px;
+    height: 1475px;
     position: absolute;
     align-items: center ;
     justify-content: center;
@@ -106,7 +106,7 @@ gap: 72px;
 
 position: absolute;
 width: 997px;
-height: 2203px;
+height: 1203px;
 left: 20%;
 top: 148px;
 

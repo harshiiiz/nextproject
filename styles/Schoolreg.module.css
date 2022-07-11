@@ -1,7 +1,7 @@
 .schcontainer{
     position: absolute;
 width: 1440px;
-height: 2475px;
+height: fit-content;
 left:calc(50% - 750px);
 align-items: center;
 justify-content: center;
@@ -10,7 +10,7 @@ background: #FFFFFF;
 }
 
 .scont{
-    height: 2475px;
+    height: fit-content;
     width: 100%;
     position: absolute;
 
@@ -26,7 +26,7 @@ gap: 72px;
 
 position: absolute;
 width: 997px;
-height: 2203px;
+height: auto;
 left: 20%;
 top: 148px;
 
@@ -39,6 +39,7 @@ left: 868px;
 padding: 18px 32px;
 
 margin-top: 72px;
+margin-bottom: 32px;
 
 
 
@@ -82,7 +83,8 @@ padding: 0px;
 gap: 48px;
 top: 787px;
 width: 996px;
-height: 1288px;
+height: 558px;
+
 position: absolute;
 }
 .part3title{
@@ -191,10 +193,10 @@ flex-grow: 0;
         left: 0px;
     }
     .scont{
-        height: 4989px;
+        height: auto;
     }
     .schcontainer{
-        height: 4989px;
+        height: auto;
 width: 100%;
 border-radius: 0px;
 left: 0px;
@@ -202,9 +204,7 @@ right: 0px;
 
 
     }
-    .scont{
-        height: 4989px;
-    }
+    
     .howmany{
         height: 30px;
 width: 100%;
@@ -223,7 +223,7 @@ margin-left: 20px;
 
     }
     .formreg{
-        height: 4600px;
+        
 width: 100%;
 left: 0px;
 top: 146px;
@@ -242,7 +242,7 @@ padding: 20px;
 
     }
     .part3school{
-        height: 3317px;
+        height: 1117px;
 width: 100%;
 left: 0px;
 top: 1355px;
